@@ -1,0 +1,3962 @@
+[
+  {
+    "paper": {
+      "arxiv_id": "1706.03762",
+      "title": "Attention Is All You Need",
+      "year": 2017,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1706.03762"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tensorflow/tensor2tensor",
+        "name": "tensorflow/tensor2tensor",
+        "description": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
+        "stars": 16760,
+        "forks": 3702,
+        "language": "Python",
+        "created_at": "2017-06-15T16:57:39+00:00",
+        "updated_at": "2025-11-25T11:46:23+00:00",
+        "topics": [
+          "machine-learning",
+          "machine-translation",
+          "deep-learning",
+          "reinforcement-learning",
+          "tpu"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1810.04805",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+      "year": 2018,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1810.04805"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/bert",
+        "name": "google-research/bert",
+        "description": "TensorFlow code and pre-trained models for BERT",
+        "stars": 39687,
+        "forks": 9711,
+        "language": "Python",
+        "created_at": "2018-10-25T22:57:34+00:00",
+        "updated_at": "2025-11-25T08:11:36+00:00",
+        "topics": [
+          "nlp",
+          "google",
+          "natural-language-processing",
+          "natural-language-understanding",
+          "tensorflow"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1907.11692",
+      "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1907.11692"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/fairseq",
+        "name": "facebookresearch/fairseq",
+        "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+        "stars": 31985,
+        "forks": 6630,
+        "language": "Python",
+        "created_at": "2017-08-29T16:26:12+00:00",
+        "updated_at": "2025-11-25T12:24:30+00:00",
+        "topics": [
+          "python",
+          "pytorch",
+          "artificial-intelligence"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1910.13461",
+      "title": "ALBERT: A Lite BERT",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1910.13461"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/albert",
+        "name": "google-research/albert",
+        "description": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+        "stars": 3274,
+        "forks": 574,
+        "language": "Python",
+        "created_at": "2019-11-26T22:23:13+00:00",
+        "updated_at": "2025-11-24T13:07:22+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1909.11942",
+      "title": "ELECTRA: Pre-training Text Encoders as Discriminators",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1909.11942"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/electra",
+        "name": "google-research/electra",
+        "description": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+        "stars": 2365,
+        "forks": 350,
+        "language": "Python",
+        "created_at": "2020-03-10T03:42:50+00:00",
+        "updated_at": "2025-11-24T12:13:26+00:00",
+        "topics": [
+          "nlp",
+          "deep-learning",
+          "tensorflow"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1910.10683",
+      "title": "T5: Exploring the Limits of Transfer Learning",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1910.10683"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/text-to-text-transfer-transformer",
+        "name": "google-research/text-to-text-transfer-transformer",
+        "description": "Code for the paper \"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"",
+        "stars": 6453,
+        "forks": 789,
+        "language": "Python",
+        "created_at": "2019-10-17T21:45:14+00:00",
+        "updated_at": "2025-11-24T01:24:34+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1906.08237",
+      "title": "XLNet: Generalized Autoregressive Pretraining",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1906.08237"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/zihangdai/xlnet",
+        "name": "zihangdai/xlnet",
+        "description": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+        "stars": 6179,
+        "forks": 1167,
+        "language": "Python",
+        "created_at": "2019-06-19T08:16:46+00:00",
+        "updated_at": "2025-11-25T11:07:42+00:00",
+        "topics": [
+          "tensorflow",
+          "nlp",
+          "deep-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2104.09864",
+      "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2104.09864"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/ZhuiyiTechnology/roformer",
+        "name": "ZhuiyiTechnology/roformer",
+        "description": "Rotary Transformer",
+        "stars": 1051,
+        "forks": 59,
+        "language": "Python",
+        "created_at": "2021-03-22T10:27:06+00:00",
+        "updated_at": "2025-11-25T01:58:16+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1901.02860",
+      "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1901.02860"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/kimiyoung/transformer-xl",
+        "name": "kimiyoung/transformer-xl",
+        "description": null,
+        "stars": 3679,
+        "forks": 766,
+        "language": "Python",
+        "created_at": "2019-01-08T12:20:24+00:00",
+        "updated_at": "2025-11-19T11:19:08+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2002.05202",
+      "title": "Reformer: The Efficient Transformer",
+      "year": 2020,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2002.05202"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google/trax",
+        "name": "google/trax",
+        "description": "Trax — Deep Learning with Clear Code and Speed",
+        "stars": 8293,
+        "forks": 828,
+        "language": "Python",
+        "created_at": "2019-10-05T15:09:14+00:00",
+        "updated_at": "2025-11-21T09:43:01+00:00",
+        "topics": [
+          "jax",
+          "numpy",
+          "deep-learning",
+          "deep-reinforcement-learning",
+          "machine-learning",
+          "transformer",
+          "reinforcement-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2006.04768",
+      "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2006.04768"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/microsoft/DeBERTa",
+        "name": "microsoft/DeBERTa",
+        "description": "The implementation of DeBERTa",
+        "stars": 2169,
+        "forks": 238,
+        "language": "Python",
+        "created_at": "2020-06-08T15:57:14+00:00",
+        "updated_at": "2025-11-25T02:34:38+00:00",
+        "topics": [
+          "bert",
+          "deeplearning",
+          "representation-learning",
+          "roberta",
+          "language-model",
+          "natural-language-understanding",
+          "self-attention",
+          "transformer-encoder"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1906.04341",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1906.04341"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/huggingface/sentence-transformers",
+        "name": "huggingface/sentence-transformers",
+        "description": "State-of-the-Art Text Embeddings",
+        "stars": 17904,
+        "forks": 2717,
+        "language": "Python",
+        "created_at": "2019-07-24T10:53:51+00:00",
+        "updated_at": "2025-11-25T04:48:34+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2005.14165",
+      "title": "GPT-3: Language Models are Few-Shot Learners",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2005.14165"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/gpt-3",
+        "name": "openai/gpt-3",
+        "description": "GPT-3: Language Models are Few-Shot Learners",
+        "stars": 15784,
+        "forks": 2294,
+        "language": null,
+        "created_at": "2020-05-18T08:03:50+00:00",
+        "updated_at": "2025-11-25T03:26:17+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2307.09288",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2307.09288"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/meta-llama/llama",
+        "name": "meta-llama/llama",
+        "description": "Inference code for Llama models",
+        "stars": 58946,
+        "forks": 9817,
+        "language": "Python",
+        "created_at": "2023-02-14T09:29:12+00:00",
+        "updated_at": "2025-11-25T06:16:37+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2302.13971",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2302.13971"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/meta-llama/llama",
+        "name": "meta-llama/llama",
+        "description": "Inference code for Llama models",
+        "stars": 58946,
+        "forks": 9817,
+        "language": "Python",
+        "created_at": "2023-02-14T09:29:12+00:00",
+        "updated_at": "2025-11-25T06:16:37+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2310.06825",
+      "title": "Mistral 7B",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2310.06825"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/mistralai/mistral-inference",
+        "name": "mistralai/mistral-inference",
+        "description": "Official inference library for Mistral models",
+        "stars": 10550,
+        "forks": 990,
+        "language": "Jupyter Notebook",
+        "created_at": "2023-09-27T13:05:24+00:00",
+        "updated_at": "2025-11-25T11:55:39+00:00",
+        "topics": [
+          "llm",
+          "llm-inference",
+          "mistralai"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1910.10683",
+      "title": "T5: Text-To-Text Transfer Transformer",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1910.10683"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/text-to-text-transfer-transformer",
+        "name": "google-research/text-to-text-transfer-transformer",
+        "description": "Code for the paper \"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"",
+        "stars": 6453,
+        "forks": 789,
+        "language": "Python",
+        "created_at": "2019-10-17T21:45:14+00:00",
+        "updated_at": "2025-11-24T01:24:34+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2112.11446",
+      "title": "FLAN: Finetuned Language Models Are Zero-Shot Learners",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2112.11446"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/FLAN",
+        "name": "google-research/FLAN",
+        "description": null,
+        "stars": 1554,
+        "forks": 161,
+        "language": "Python",
+        "created_at": "2021-08-21T20:12:17+00:00",
+        "updated_at": "2025-11-20T07:31:53+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2204.02311",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "year": 2022,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2204.02311"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/lucidrains/PaLM-pytorch",
+        "name": "lucidrains/PaLM-pytorch",
+        "description": "Implementation of the specific Transformer architecture from PaLM - Scaling Language Modeling with Pathways",
+        "stars": 826,
+        "forks": 82,
+        "language": "Python",
+        "created_at": "2022-04-04T19:35:12+00:00",
+        "updated_at": "2025-11-19T22:40:42+00:00",
+        "topics": [
+          "deep-learning",
+          "transformers",
+          "attention-mechanism",
+          "artificial-general-intelligence"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2203.02155",
+      "title": "Training language models to follow instructions with human feedback",
+      "year": 2022,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2203.02155"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/following-instructions-human-feedback",
+        "name": "openai/following-instructions-human-feedback",
+        "description": null,
+        "stars": 1249,
+        "forks": 147,
+        "language": null,
+        "created_at": "2022-01-25T01:15:00+00:00",
+        "updated_at": "2025-11-23T02:38:40+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2304.15004",
+      "title": "Vicuna: An Open-Source Chatbot",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2304.15004"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/lm-sys/FastChat",
+        "name": "lm-sys/FastChat",
+        "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.",
+        "stars": 39271,
+        "forks": 4772,
+        "language": "Python",
+        "created_at": "2023-03-19T00:18:02+00:00",
+        "updated_at": "2025-11-25T10:43:53+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2106.09685",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2106.09685"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/microsoft/LoRA",
+        "name": "microsoft/LoRA",
+        "description": "Code for loralib, an implementation of \"LoRA: Low-Rank Adaptation of Large Language Models\"",
+        "stars": 12979,
+        "forks": 863,
+        "language": "Python",
+        "created_at": "2021-06-18T02:16:35+00:00",
+        "updated_at": "2025-11-25T12:15:06+00:00",
+        "topics": [
+          "gpt-2",
+          "adaptation",
+          "language-model",
+          "gpt-3",
+          "low-rank",
+          "pytorch",
+          "deep-learning",
+          "roberta",
+          "deberta",
+          "lora"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2305.14314",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2305.14314"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/artidoro/qlora",
+        "name": "artidoro/qlora",
+        "description": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "stars": 10764,
+        "forks": 866,
+        "language": "Jupyter Notebook",
+        "created_at": "2023-05-11T09:30:23+00:00",
+        "updated_at": "2025-11-25T09:06:28+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2104.08691",
+      "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2104.08691"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/XiangLi1999/PrefixTuning",
+        "name": "XiangLi1999/PrefixTuning",
+        "description": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+        "stars": 954,
+        "forks": 164,
+        "language": "Python",
+        "created_at": "2021-01-21T19:59:56+00:00",
+        "updated_at": "2025-11-23T05:36:13+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2101.00190",
+      "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2101.00190"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/prompt-tuning",
+        "name": "google-research/prompt-tuning",
+        "description": "Original Implementation of Prompt Tuning from Lester, et al, 2021",
+        "stars": 698,
+        "forks": 62,
+        "language": "Python",
+        "created_at": "2021-09-07T13:21:08+00:00",
+        "updated_at": "2025-11-25T08:27:16+00:00",
+        "topics": [
+          "prompt-tuning",
+          "nlp",
+          "machine-learning",
+          "jax",
+          "flax",
+          "language-model"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2110.07602",
+      "title": "P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2110.07602"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/THUDM/P-tuning-v2",
+        "name": "THUDM/P-tuning-v2",
+        "description": "An optimized deep prompt tuning strategy comparable to fine-tuning across scales and tasks",
+        "stars": 2067,
+        "forks": 206,
+        "language": "Python",
+        "created_at": "2021-10-14T14:16:05+00:00",
+        "updated_at": "2025-11-24T12:56:32+00:00",
+        "topics": [
+          "natural-language-processing",
+          "prompt-tuning",
+          "pretrained-language-model",
+          "p-tuning",
+          "parameter-efficient-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2205.05638",
+      "title": "AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning",
+      "year": 2022,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2205.05638"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/QingruZhang/AdaLoRA",
+        "name": "QingruZhang/AdaLoRA",
+        "description": "AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning (ICLR 2023). ",
+        "stars": 361,
+        "forks": 36,
+        "language": "Python",
+        "created_at": "2023-05-31T01:17:08+00:00",
+        "updated_at": "2025-11-20T17:39:12+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2303.10512",
+      "title": "LLaMA-Adapter: Efficient Fine-tuning of Language Models",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2303.10512"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/OpenGVLab/LLaMA-Adapter",
+        "name": "OpenGVLab/LLaMA-Adapter",
+        "description": "[ICLR 2024] Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters",
+        "stars": 5923,
+        "forks": 383,
+        "language": "Python",
+        "created_at": "2023-03-19T15:08:12+00:00",
+        "updated_at": "2025-11-25T03:48:31+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2005.11401",
+      "title": "RAG: Retrieval-Augmented Generation",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2005.11401"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/DPR",
+        "name": "facebookresearch/DPR",
+        "description": "Dense Passage Retriever - is a set of tools and models for open domain Q&A task.",
+        "stars": 1847,
+        "forks": 315,
+        "language": "Python",
+        "created_at": "2020-05-13T01:13:13+00:00",
+        "updated_at": "2025-11-19T11:21:41+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2004.04906",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2004.04906"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/DPR",
+        "name": "facebookresearch/DPR",
+        "description": "Dense Passage Retriever - is a set of tools and models for open domain Q&A task.",
+        "stars": 1847,
+        "forks": 315,
+        "language": "Python",
+        "created_at": "2020-05-13T01:13:13+00:00",
+        "updated_at": "2025-11-19T11:21:41+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2112.04426",
+      "title": "ColBERT: Efficient Passage Search via Contextualized Late Interaction",
+      "year": 2021,
+      "category": "cs.IR",
+      "url": "https://arxiv.org/abs/2112.04426"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/stanford-futuredata/ColBERT",
+        "name": "stanford-futuredata/ColBERT",
+        "description": "ColBERT: state-of-the-art neural search (SIGIR'20, TACL'21, NeurIPS'21, NAACL'22, CIKM'22, ACL'23, EMNLP'23)",
+        "stars": 3707,
+        "forks": 462,
+        "language": "Python",
+        "created_at": "2020-05-25T18:01:18+00:00",
+        "updated_at": "2025-11-25T05:38:12+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2205.12755",
+      "title": "Beir: A Heterogeneous Benchmark for IR",
+      "year": 2022,
+      "category": "cs.IR",
+      "url": "https://arxiv.org/abs/2205.12755"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/beir-cellar/beir",
+        "name": "beir-cellar/beir",
+        "description": "A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets.",
+        "stars": 2007,
+        "forks": 225,
+        "language": "Python",
+        "created_at": "2021-01-18T09:55:54+00:00",
+        "updated_at": "2025-11-25T07:16:36+00:00",
+        "topics": [
+          "nlp",
+          "information-retrieval",
+          "bert",
+          "benchmark",
+          "sentence-transformers",
+          "question-generation",
+          "retrieval",
+          "passage-retrieval",
+          "elasticsearch",
+          "dpr",
+          "sbert",
+          "retrieval-models",
+          "dataset",
+          "colbert",
+          "zero-shot-retrieval",
+          "deep-learning",
+          "pytorch",
+          "llm",
+          "rag"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2212.10496",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique",
+      "year": 2022,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2212.10496"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/AkariAsai/self-rag",
+        "name": "AkariAsai/self-rag",
+        "description": "This includes the original implementation of SELF-RAG: Learning to Retrieve, Generate and Critique through self-reflection by Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, and Hannaneh Hajishirzi.",
+        "stars": 2252,
+        "forks": 214,
+        "language": "Python",
+        "created_at": "2023-10-10T20:12:05+00:00",
+        "updated_at": "2025-11-24T07:33:33+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2201.08239",
+      "title": "Contriever: Unsupervised Dense Information Retrieval",
+      "year": 2022,
+      "category": "cs.IR",
+      "url": "https://arxiv.org/abs/2201.08239"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/contriever",
+        "name": "facebookresearch/contriever",
+        "description": "Contriever: Unsupervised Dense Information Retrieval with Contrastive Learning",
+        "stars": 763,
+        "forks": 67,
+        "language": "Python",
+        "created_at": "2021-12-17T17:03:53+00:00",
+        "updated_at": "2025-11-25T09:20:42+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2212.10375",
+      "title": "InPars: Data Augmentation for Information Retrieval",
+      "year": 2022,
+      "category": "cs.IR",
+      "url": "https://arxiv.org/abs/2212.10375"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/zetaalphavector/InPars",
+        "name": "zetaalphavector/InPars",
+        "description": "Inquisitive Parrots for Search",
+        "stars": 198,
+        "forks": 24,
+        "language": "Python",
+        "created_at": "2022-02-02T11:28:48+00:00",
+        "updated_at": "2025-10-02T21:50:16+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2103.00020",
+      "title": "CLIP: Learning Transferable Visual Models From Natural Language",
+      "year": 2021,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2103.00020"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/CLIP",
+        "name": "openai/CLIP",
+        "description": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image",
+        "stars": 31706,
+        "forks": 3848,
+        "language": "Jupyter Notebook",
+        "created_at": "2020-12-16T11:24:42+00:00",
+        "updated_at": "2025-11-25T13:01:25+00:00",
+        "topics": [
+          "deep-learning",
+          "machine-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2301.12597",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2301.12597"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/salesforce/LAVIS",
+        "name": "salesforce/LAVIS",
+        "description": "LAVIS - A One-stop Library for Language-Vision Intelligence",
+        "stars": 11040,
+        "forks": 1086,
+        "language": "Jupyter Notebook",
+        "created_at": "2022-08-24T02:36:01+00:00",
+        "updated_at": "2025-11-25T09:12:59+00:00",
+        "topics": [
+          "deep-learning",
+          "deep-learning-library",
+          "image-captioning",
+          "salesforce",
+          "vision-and-language",
+          "vision-framework",
+          "vision-language-pretraining",
+          "vision-language-transformer",
+          "visual-question-anwsering",
+          "multimodal-datasets",
+          "multimodal-deep-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2201.12086",
+      "title": "BLIP: Bootstrapping Language-Image Pre-training",
+      "year": 2022,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2201.12086"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/salesforce/BLIP",
+        "name": "salesforce/BLIP",
+        "description": "PyTorch code for BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation  ",
+        "stars": 5583,
+        "forks": 758,
+        "language": "Jupyter Notebook",
+        "created_at": "2022-01-25T01:19:25+00:00",
+        "updated_at": "2025-11-24T12:09:15+00:00",
+        "topics": [
+          "vision-language",
+          "vision-and-language-pre-training",
+          "image-text-retrieval",
+          "image-captioning",
+          "visual-question-answering",
+          "visual-reasoning",
+          "vision-language-transformer"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2204.14198",
+      "title": "Flamingo: A Visual Language Model for Few-Shot Learning",
+      "year": 2022,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2204.14198"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/lucidrains/flamingo-pytorch",
+        "name": "lucidrains/flamingo-pytorch",
+        "description": "Implementation of 🦩 Flamingo, state-of-the-art few-shot visual question answering attention net out of Deepmind, in Pytorch",
+        "stars": 1270,
+        "forks": 66,
+        "language": "Python",
+        "created_at": "2022-04-28T15:47:33+00:00",
+        "updated_at": "2025-11-23T04:26:49+00:00",
+        "topics": [
+          "artificial-intelligence",
+          "attention-mechanism",
+          "deep-learning",
+          "transformers",
+          "visual-question-answering"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2304.08485",
+      "title": "MiniGPT-4: Enhancing Vision-Language Understanding",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2304.08485"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/Vision-CAIR/MiniGPT-4",
+        "name": "Vision-CAIR/MiniGPT-4",
+        "description": "Open-sourced codes for MiniGPT-4 and MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)",
+        "stars": 25756,
+        "forks": 2934,
+        "language": "Python",
+        "created_at": "2023-04-15T22:17:09+00:00",
+        "updated_at": "2025-11-25T11:13:02+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2304.10592",
+      "title": "LLaVA: Large Language and Vision Assistant",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2304.10592"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/haotian-liu/LLaVA",
+        "name": "haotian-liu/LLaVA",
+        "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
+        "stars": 24034,
+        "forks": 2665,
+        "language": "Python",
+        "created_at": "2023-04-17T16:13:11+00:00",
+        "updated_at": "2025-11-25T12:33:34+00:00",
+        "topics": [
+          "gpt-4",
+          "chatbot",
+          "chatgpt",
+          "llama",
+          "multimodal",
+          "llava",
+          "foundation-models",
+          "instruction-tuning",
+          "multi-modality",
+          "visual-language-learning",
+          "llama-2",
+          "llama2",
+          "vision-language-model"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2310.03744",
+      "title": "LLaVA-1.5: Improved Baselines with Visual Instruction Tuning",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2310.03744"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/haotian-liu/LLaVA",
+        "name": "haotian-liu/LLaVA",
+        "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
+        "stars": 24034,
+        "forks": 2665,
+        "language": "Python",
+        "created_at": "2023-04-17T16:13:11+00:00",
+        "updated_at": "2025-11-25T12:33:34+00:00",
+        "topics": [
+          "gpt-4",
+          "chatbot",
+          "chatgpt",
+          "llama",
+          "multimodal",
+          "llava",
+          "foundation-models",
+          "instruction-tuning",
+          "multi-modality",
+          "visual-language-learning",
+          "llama-2",
+          "llama2",
+          "vision-language-model"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2305.06500",
+      "title": "InstructBLIP: Towards General-purpose Vision-Language Models",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2305.06500"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/salesforce/LAVIS",
+        "name": "salesforce/LAVIS",
+        "description": "LAVIS - A One-stop Library for Language-Vision Intelligence",
+        "stars": 11040,
+        "forks": 1086,
+        "language": "Jupyter Notebook",
+        "created_at": "2022-08-24T02:36:01+00:00",
+        "updated_at": "2025-11-25T09:12:59+00:00",
+        "topics": [
+          "deep-learning",
+          "deep-learning-library",
+          "image-captioning",
+          "salesforce",
+          "vision-and-language",
+          "vision-framework",
+          "vision-language-pretraining",
+          "vision-language-transformer",
+          "visual-question-anwsering",
+          "multimodal-datasets",
+          "multimodal-deep-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2102.02779",
+      "title": "ViT: An Image is Worth 16x16 Words",
+      "year": 2021,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2102.02779"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/vision_transformer",
+        "name": "google-research/vision_transformer",
+        "description": null,
+        "stars": 12040,
+        "forks": 1432,
+        "language": "Jupyter Notebook",
+        "created_at": "2020-10-21T12:35:02+00:00",
+        "updated_at": "2025-11-25T12:35:44+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2103.14030",
+      "title": "BEiT: BERT Pre-Training of Image Transformers",
+      "year": 2021,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2103.14030"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/microsoft/unilm",
+        "name": "microsoft/unilm",
+        "description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
+        "stars": 21848,
+        "forks": 2674,
+        "language": "Python",
+        "created_at": "2019-07-23T04:15:28+00:00",
+        "updated_at": "2025-11-25T06:06:05+00:00",
+        "topics": [
+          "nlp",
+          "pre-trained-model",
+          "unilm",
+          "minilm",
+          "layoutlm",
+          "layoutxlm",
+          "beit",
+          "document-ai",
+          "trocr",
+          "beit-3",
+          "foundation-models",
+          "xlm-e",
+          "deepnet",
+          "llm",
+          "multimodal",
+          "mllm",
+          "kosmos",
+          "kosmos-1",
+          "textdiffuser",
+          "bitnet"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2006.11239",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "year": 2020,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2006.11239"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/hojonathanho/diffusion",
+        "name": "hojonathanho/diffusion",
+        "description": "Denoising Diffusion Probabilistic Models",
+        "stars": 4860,
+        "forks": 455,
+        "language": "Python",
+        "created_at": "2020-06-19T00:47:02+00:00",
+        "updated_at": "2025-11-25T12:40:25+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2112.10752",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "year": 2021,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2112.10752"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/CompVis/latent-diffusion",
+        "name": "CompVis/latent-diffusion",
+        "description": "High-Resolution Image Synthesis with Latent Diffusion Models",
+        "stars": 13589,
+        "forks": 1697,
+        "language": "Jupyter Notebook",
+        "created_at": "2021-12-20T16:56:18+00:00",
+        "updated_at": "2025-11-25T09:45:18+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2105.05233",
+      "title": "Diffusion Models Beat GANs on Image Synthesis",
+      "year": 2021,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2105.05233"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/guided-diffusion",
+        "name": "openai/guided-diffusion",
+        "description": null,
+        "stars": 7161,
+        "forks": 886,
+        "language": "Python",
+        "created_at": "2021-04-27T20:27:52+00:00",
+        "updated_at": "2025-11-25T08:19:36+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2010.02502",
+      "title": "Denoising Diffusion Implicit Models",
+      "year": 2020,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2010.02502"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/ermongroup/ddim",
+        "name": "ermongroup/ddim",
+        "description": "Denoising Diffusion Implicit Models",
+        "stars": 1743,
+        "forks": 227,
+        "language": "Python",
+        "created_at": "2020-10-05T23:11:51+00:00",
+        "updated_at": "2025-11-21T20:28:02+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2209.00796",
+      "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+      "year": 2022,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2209.00796"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/ashawkey/stable-dreamfusion",
+        "name": "ashawkey/stable-dreamfusion",
+        "description": "Text-to-3D & Image-to-3D & Mesh Exportation with NeRF + Diffusion.",
+        "stars": 8773,
+        "forks": 768,
+        "language": "Python",
+        "created_at": "2022-10-06T06:18:39+00:00",
+        "updated_at": "2025-11-24T13:42:07+00:00",
+        "topics": [
+          "text-to-3d",
+          "gui",
+          "nerf",
+          "stable-diffusion",
+          "dreamfusion",
+          "image-to-3d"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2208.01618",
+      "title": "DreamBooth: Fine Tuning Text-to-Image Diffusion Models",
+      "year": 2022,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2208.01618"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google/dreambooth",
+        "name": "google/dreambooth",
+        "description": null,
+        "stars": 998,
+        "forks": 91,
+        "language": null,
+        "created_at": "2023-03-01T17:10:19+00:00",
+        "updated_at": "2025-11-19T11:31:50+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2302.05543",
+      "title": "ControlNet: Adding Conditional Control to Text-to-Image Diffusion",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2302.05543"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/lllyasviel/ControlNet",
+        "name": "lllyasviel/ControlNet",
+        "description": "Let us control diffusion models!",
+        "stars": 33344,
+        "forks": 2987,
+        "language": "Python",
+        "created_at": "2023-02-01T02:43:30+00:00",
+        "updated_at": "2025-11-25T13:04:29+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2307.01952",
+      "title": "Animate Anyone: Consistent and Controllable Image-to-Video Synthesis",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2307.01952"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/HumanAIGC/AnimateAnyone",
+        "name": "HumanAIGC/AnimateAnyone",
+        "description": "Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation",
+        "stars": 14797,
+        "forks": 1008,
+        "language": null,
+        "created_at": "2023-11-28T07:55:34+00:00",
+        "updated_at": "2025-11-24T08:40:37+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2312.00752",
+      "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2312.00752"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/state-spaces/mamba",
+        "name": "state-spaces/mamba",
+        "description": "Mamba SSM architecture",
+        "stars": 16525,
+        "forks": 1505,
+        "language": "Python",
+        "created_at": "2023-12-01T01:17:39+00:00",
+        "updated_at": "2025-11-25T12:30:47+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2111.00396",
+      "title": "S4: Efficiently Modeling Long Sequences",
+      "year": 2021,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2111.00396"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/state-spaces/s4",
+        "name": "state-spaces/s4",
+        "description": "Structured state space sequence models",
+        "stars": 2783,
+        "forks": 349,
+        "language": "Jupyter Notebook",
+        "created_at": "2021-11-03T15:33:53+00:00",
+        "updated_at": "2025-11-25T02:58:52+00:00",
+        "topics": [
+          "state-space-models",
+          "sequence-models",
+          "pytorch"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2203.05556",
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention",
+      "year": 2022,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2203.05556"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/Dao-AILab/flash-attention",
+        "name": "Dao-AILab/flash-attention",
+        "description": "Fast and memory-efficient exact attention",
+        "stars": 20719,
+        "forks": 2160,
+        "language": "Python",
+        "created_at": "2022-05-19T21:22:06+00:00",
+        "updated_at": "2025-11-25T10:53:41+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2307.08691",
+      "title": "FlashAttention-2: Faster Attention with Better Parallelism",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2307.08691"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/Dao-AILab/flash-attention",
+        "name": "Dao-AILab/flash-attention",
+        "description": "Fast and memory-efficient exact attention",
+        "stars": 20719,
+        "forks": 2160,
+        "language": "Python",
+        "created_at": "2022-05-19T21:22:06+00:00",
+        "updated_at": "2025-11-25T10:53:41+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2108.12409",
+      "title": "Linformer: Self-Attention with Linear Complexity",
+      "year": 2021,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2108.12409"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tatp22/linformer-pytorch",
+        "name": "tatp22/linformer-pytorch",
+        "description": "My take on a practical implementation of Linformer for Pytorch.",
+        "stars": 421,
+        "forks": 37,
+        "language": "Python",
+        "created_at": "2020-06-11T15:09:22+00:00",
+        "updated_at": "2025-10-20T13:16:43+00:00",
+        "topics": [
+          "artificial-intelligence",
+          "deep-learning",
+          "attention-mechanism",
+          "pytorch",
+          "machine-learning",
+          "linformer",
+          "paper"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2001.04451",
+      "title": "Longformer: The Long-Document Transformer",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2001.04451"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/allenai/longformer",
+        "name": "allenai/longformer",
+        "description": "Longformer: The Long-Document Transformer",
+        "stars": 2175,
+        "forks": 288,
+        "language": "Python",
+        "created_at": "2020-03-31T21:07:29+00:00",
+        "updated_at": "2025-11-20T02:53:48+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2203.08913",
+      "title": "RetNet: Retentive Network: A Successor to Transformer",
+      "year": 2022,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2203.08913"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/microsoft/torchscale",
+        "name": "microsoft/torchscale",
+        "description": "Foundation Architecture for (M)LLMs",
+        "stars": 3121,
+        "forks": 222,
+        "language": "Python",
+        "created_at": "2022-11-17T08:55:59+00:00",
+        "updated_at": "2025-11-19T20:39:38+00:00",
+        "topics": [
+          "computer-vision",
+          "machine-learning",
+          "multimodal",
+          "natural-language-processing",
+          "pretrained-language-model",
+          "speech-processing",
+          "transformer",
+          "translation"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2009.01325",
+      "title": "Learning to summarize from human feedback",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2009.01325"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/summarize-from-feedback",
+        "name": "openai/summarize-from-feedback",
+        "description": "Code for \"Learning to summarize from human feedback\"",
+        "stars": 1055,
+        "forks": 152,
+        "language": "Python",
+        "created_at": "2020-09-02T17:34:05+00:00",
+        "updated_at": "2025-11-23T02:36:57+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2203.02155",
+      "title": "InstructGPT: Training language models to follow instructions",
+      "year": 2022,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2203.02155"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/following-instructions-human-feedback",
+        "name": "openai/following-instructions-human-feedback",
+        "description": null,
+        "stars": 1249,
+        "forks": 147,
+        "language": null,
+        "created_at": "2022-01-25T01:15:00+00:00",
+        "updated_at": "2025-11-23T02:38:40+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2305.18290",
+      "title": "Direct Preference Optimization: Your Language Model is a Reward Model",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2305.18290"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/eric-mitchell/direct-preference-optimization",
+        "name": "eric-mitchell/direct-preference-optimization",
+        "description": "Reference implementation for DPO (Direct Preference Optimization)",
+        "stars": 2789,
+        "forks": 231,
+        "language": "Python",
+        "created_at": "2023-06-22T09:27:11+00:00",
+        "updated_at": "2025-11-24T10:08:35+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2205.00445",
+      "title": "MRKL Systems: A modular approach to AGI",
+      "year": 2022,
+      "category": "cs.AI",
+      "url": "https://arxiv.org/abs/2205.00445"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/langchain-ai/langchain",
+        "name": "langchain-ai/langchain",
+        "description": "🦜🔗 The platform for reliable agents.",
+        "stars": 120451,
+        "forks": 19851,
+        "language": "Python",
+        "created_at": "2022-10-17T02:58:36+00:00",
+        "updated_at": "2025-11-25T13:05:30+00:00",
+        "topics": [
+          "ai",
+          "anthropic",
+          "gemini",
+          "langchain",
+          "llm",
+          "openai",
+          "python",
+          "agents",
+          "ai-agents",
+          "ai-agents-framework",
+          "chatgpt",
+          "enterprise",
+          "framework",
+          "generative-ai",
+          "multiagent",
+          "open-source",
+          "pydantic",
+          "rag",
+          "aiagentframework"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2210.03629",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "year": 2022,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2210.03629"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/ysymyth/ReAct",
+        "name": "ysymyth/ReAct",
+        "description": "[ICLR 2023] ReAct: Synergizing Reasoning and Acting in Language Models",
+        "stars": 3225,
+        "forks": 325,
+        "language": "Jupyter Notebook",
+        "created_at": "2022-11-13T19:51:09+00:00",
+        "updated_at": "2025-11-25T10:35:14+00:00",
+        "topics": [
+          "decision-making",
+          "large-language-models",
+          "llm",
+          "prompting",
+          "reasoning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2303.11366",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "category": "cs.AI",
+      "url": "https://arxiv.org/abs/2303.11366"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/noahshinn/reflexion",
+        "name": "noahshinn/reflexion",
+        "description": "[NeurIPS 2023] Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "stars": 2959,
+        "forks": 285,
+        "language": "Python",
+        "created_at": "2023-03-22T06:38:53+00:00",
+        "updated_at": "2025-11-25T10:54:01+00:00",
+        "topics": [
+          "ai",
+          "artificial-intelligence",
+          "llm"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2305.15334",
+      "title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2305.15334"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/ShishirPatil/gorilla",
+        "name": "ShishirPatil/gorilla",
+        "description": "Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)",
+        "stars": 12574,
+        "forks": 1283,
+        "language": "Python",
+        "created_at": "2023-05-19T00:46:45+00:00",
+        "updated_at": "2025-11-25T12:56:23+00:00",
+        "topics": [
+          "api",
+          "llm",
+          "api-documentation",
+          "chatgpt",
+          "gpt-4-api",
+          "claude-api",
+          "openai-api",
+          "openai-functions"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2308.08155",
+      "title": "MetaGPT: Meta Programming for Multi-Agent Systems",
+      "year": 2023,
+      "category": "cs.AI",
+      "url": "https://arxiv.org/abs/2308.08155"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/FoundationAgents/MetaGPT",
+        "name": "FoundationAgents/MetaGPT",
+        "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+        "stars": 59669,
+        "forks": 7305,
+        "language": "Python",
+        "created_at": "2023-06-30T09:04:55+00:00",
+        "updated_at": "2025-11-25T12:45:09+00:00",
+        "topics": [
+          "agent",
+          "gpt",
+          "llm",
+          "metagpt",
+          "multi-agent"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2303.17580",
+      "title": "HuggingGPT: Solving AI Tasks with ChatGPT",
+      "year": 2023,
+      "category": "cs.AI",
+      "url": "https://arxiv.org/abs/2303.17580"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/microsoft/JARVIS",
+        "name": "microsoft/JARVIS",
+        "description": "JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf",
+        "stars": 24460,
+        "forks": 2051,
+        "language": "Python",
+        "created_at": "2023-03-30T02:57:12+00:00",
+        "updated_at": "2025-11-25T11:46:13+00:00",
+        "topics": [
+          "deep-learning",
+          "platform",
+          "pytorch"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2106.05237",
+      "title": "Wav2Vec 2.0: A Framework for Self-Supervised Learning of Speech",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2106.05237"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/fairseq",
+        "name": "facebookresearch/fairseq",
+        "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+        "stars": 31985,
+        "forks": 6630,
+        "language": "Python",
+        "created_at": "2017-08-29T16:26:12+00:00",
+        "updated_at": "2025-11-25T12:24:30+00:00",
+        "topics": [
+          "python",
+          "pytorch",
+          "artificial-intelligence"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2212.04356",
+      "title": "Whisper: Robust Speech Recognition via Large-Scale Weak Supervision",
+      "year": 2022,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2212.04356"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/whisper",
+        "name": "openai/whisper",
+        "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+        "stars": 91236,
+        "forks": 11444,
+        "language": "Python",
+        "created_at": "2022-09-16T20:02:54+00:00",
+        "updated_at": "2025-11-25T12:37:44+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2302.08575",
+      "title": "SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2302.08575"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/0nutation/SpeechGPT",
+        "name": "0nutation/SpeechGPT",
+        "description": "SpeechGPT Series: Speech Large Language Models",
+        "stars": 1396,
+        "forks": 95,
+        "language": "Python",
+        "created_at": "2023-05-16T15:59:40+00:00",
+        "updated_at": "2025-11-24T11:15:30+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2309.03409",
+      "title": "AudioPaLM: A Large Language Model for Speech Understanding",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2309.03409"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/lucidrains/audiolm-pytorch",
+        "name": "lucidrains/audiolm-pytorch",
+        "description": "Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch",
+        "stars": 2607,
+        "forks": 280,
+        "language": "Python",
+        "created_at": "2022-09-09T21:55:02+00:00",
+        "updated_at": "2025-11-24T16:16:07+00:00",
+        "topics": [
+          "artificial-intelligence",
+          "attention-mechanisms",
+          "audio-synthesis",
+          "deep-learning",
+          "transformers"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2107.03374",
+      "title": "Codex: Evaluating Large Language Models Trained on Code",
+      "year": 2021,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2107.03374"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/human-eval",
+        "name": "openai/human-eval",
+        "description": "Code for the paper \"Evaluating Large Language Models Trained on Code\"",
+        "stars": 3030,
+        "forks": 422,
+        "language": "Python",
+        "created_at": "2021-07-06T21:23:45+00:00",
+        "updated_at": "2025-11-24T19:24:28+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2203.07814",
+      "title": "Competition-Level Code Generation with AlphaCode",
+      "year": 2022,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2203.07814"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-deepmind/code_contests",
+        "name": "google-deepmind/code_contests",
+        "description": null,
+        "stars": 2177,
+        "forks": 224,
+        "language": "C++",
+        "created_at": "2022-01-31T09:48:14+00:00",
+        "updated_at": "2025-11-25T08:58:46+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2305.06161",
+      "title": "StarCoder: May the source be with you!",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2305.06161"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/bigcode-project/starcoder",
+        "name": "bigcode-project/starcoder",
+        "description": "Home of StarCoder: fine-tuning & inference!",
+        "stars": 7473,
+        "forks": 530,
+        "language": "Python",
+        "created_at": "2023-04-24T12:32:21+00:00",
+        "updated_at": "2025-11-25T10:42:20+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2308.12950",
+      "title": "Code Llama: Open Foundation Models for Code",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2308.12950"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/meta-llama/codellama",
+        "name": "meta-llama/codellama",
+        "description": "Inference code for CodeLlama models",
+        "stars": 16365,
+        "forks": 1946,
+        "language": "Python",
+        "created_at": "2023-08-24T14:25:15+00:00",
+        "updated_at": "2025-11-23T17:41:27+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2309.10305",
+      "title": "WizardCoder: Empowering Code LLMs with Evol-Instruct",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2309.10305"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/nlpxucan/WizardLM",
+        "name": "nlpxucan/WizardLM",
+        "description": "LLMs build upon Evol Insturct: WizardLM, WizardCoder, WizardMath",
+        "stars": 9460,
+        "forks": 761,
+        "language": "Python",
+        "created_at": "2023-04-23T13:26:46+00:00",
+        "updated_at": "2025-11-25T11:57:43+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2109.07958",
+      "title": "MMLU: Measuring Massive Multitask Language Understanding",
+      "year": 2021,
+      "category": "cs.CY",
+      "url": "https://arxiv.org/abs/2109.07958"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/hendrycks/test",
+        "name": "hendrycks/test",
+        "description": "Measuring Massive Multitask Language Understanding | ICLR 2021",
+        "stars": 1523,
+        "forks": 113,
+        "language": "Python",
+        "created_at": "2020-09-07T23:02:57+00:00",
+        "updated_at": "2025-11-25T03:29:30+00:00",
+        "topics": [
+          "muti-task",
+          "transfer-learning",
+          "gpt-3",
+          "few-shot-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2303.08774",
+      "title": "GPT-4 Technical Report",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2303.08774"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/evals",
+        "name": "openai/evals",
+        "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+        "stars": 17349,
+        "forks": 2848,
+        "language": "Python",
+        "created_at": "2023-01-23T20:51:04+00:00",
+        "updated_at": "2025-11-25T02:42:01+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2307.03109",
+      "title": "AlpacaEval: An Automatic Evaluator for Instruction-following",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2307.03109"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tatsu-lab/alpaca_eval",
+        "name": "tatsu-lab/alpaca_eval",
+        "description": "An automatic evaluator for instruction-following language models. Human-validated, high-quality, cheap, and fast.",
+        "stars": 1907,
+        "forks": 290,
+        "language": "Jupyter Notebook",
+        "created_at": "2023-05-25T09:35:28+00:00",
+        "updated_at": "2025-11-25T02:54:44+00:00",
+        "topics": [
+          "deep-learning",
+          "evaluation",
+          "foundation-models",
+          "instruction-following",
+          "large-language-models",
+          "leaderboard",
+          "nlp",
+          "rlhf"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2306.05685",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2306.05685"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/lm-sys/FastChat",
+        "name": "lm-sys/FastChat",
+        "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.",
+        "stars": 39271,
+        "forks": 4772,
+        "language": "Python",
+        "created_at": "2023-03-19T00:18:02+00:00",
+        "updated_at": "2025-11-25T10:43:53+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1905.07830",
+      "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1905.07830"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/nyu-mll/jiant",
+        "name": "nyu-mll/jiant",
+        "description": "jiant is an nlp toolkit",
+        "stars": 1672,
+        "forks": 297,
+        "language": "Python",
+        "created_at": "2018-06-18T18:12:47+00:00",
+        "updated_at": "2025-11-23T05:49:54+00:00",
+        "topics": [
+          "nlp",
+          "sentence-representation",
+          "bert",
+          "multitask-learning",
+          "transformers",
+          "transfer-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1609.02907",
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "year": 2016,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1609.02907"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tkipf/gcn",
+        "name": "tkipf/gcn",
+        "description": "Implementation of Graph Convolutional Networks in TensorFlow",
+        "stars": 7334,
+        "forks": 2014,
+        "language": "Python",
+        "created_at": "2016-11-11T10:59:21+00:00",
+        "updated_at": "2025-11-25T02:57:37+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1710.10903",
+      "title": "Graph Attention Networks",
+      "year": 2017,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1710.10903"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/PetarV-/GAT",
+        "name": "PetarV-/GAT",
+        "description": "Graph Attention Networks (https://arxiv.org/abs/1710.10903)",
+        "stars": 3460,
+        "forks": 673,
+        "language": "Python",
+        "created_at": "2018-02-01T02:17:22+00:00",
+        "updated_at": "2025-11-24T15:36:19+00:00",
+        "topics": [
+          "graph-attention-networks",
+          "attention-mechanism",
+          "self-attention",
+          "tensorflow",
+          "neural-networks",
+          "python"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1706.02216",
+      "title": "Inductive Representation Learning on Large Graphs",
+      "year": 2017,
+      "category": "cs.SI",
+      "url": "https://arxiv.org/abs/1706.02216"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/williamleif/GraphSAGE",
+        "name": "williamleif/GraphSAGE",
+        "description": "Representation learning on large graphs using stochastic graph convolutions.",
+        "stars": 3630,
+        "forks": 849,
+        "language": "Python",
+        "created_at": "2017-05-29T15:36:22+00:00",
+        "updated_at": "2025-11-23T13:03:33+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2005.00687",
+      "title": "Deep Graph Library: A Graph-Centric, Highly-Performant Package",
+      "year": 2020,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2005.00687"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/dmlc/dgl",
+        "name": "dmlc/dgl",
+        "description": "Python package built to ease deep learning on graph, on top of existing DL frameworks.",
+        "stars": 14149,
+        "forks": 3057,
+        "language": "Python",
+        "created_at": "2018-04-20T14:49:09+00:00",
+        "updated_at": "2025-11-25T07:22:28+00:00",
+        "topics": [
+          "deep-learning",
+          "graph-neural-networks"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1903.07293",
+      "title": "PyTorch Geometric: Library for Geometric Deep Learning",
+      "year": 2019,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1903.07293"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/pyg-team/pytorch_geometric",
+        "name": "pyg-team/pytorch_geometric",
+        "description": "Graph Neural Network Library for PyTorch",
+        "stars": 23186,
+        "forks": 3921,
+        "language": "Python",
+        "created_at": "2017-10-06T16:03:03+00:00",
+        "updated_at": "2025-11-25T13:02:15+00:00",
+        "topics": [
+          "pytorch",
+          "geometric-deep-learning",
+          "graph-neural-networks",
+          "deep-learning",
+          "graph-convolutional-networks"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1508.07909",
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "year": 2015,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1508.07909"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/lisa-groundhog/GroundHog",
+        "name": "lisa-groundhog/GroundHog",
+        "description": "Library for implementing RNNs with Theano",
+        "stars": 613,
+        "forks": 230,
+        "language": "Python",
+        "created_at": "2014-08-19T13:08:13+00:00",
+        "updated_at": "2025-11-13T04:17:46+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1409.0473",
+      "title": "Sequence to Sequence Learning with Neural Networks",
+      "year": 2014,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1409.0473"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/farizrahman4u/seq2seq",
+        "name": "farizrahman4u/seq2seq",
+        "description": "Sequence to Sequence Learning with Keras",
+        "stars": 3173,
+        "forks": 838,
+        "language": "Python",
+        "created_at": "2015-11-07T07:37:12+00:00",
+        "updated_at": "2025-10-02T12:09:12+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1706.03059",
+      "title": "Depthwise Separable Convolutions for Neural Machine Translation",
+      "year": 2017,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1706.03059"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/google-research",
+        "name": "google-research/google-research",
+        "description": "Google Research",
+        "stars": 36800,
+        "forks": 8255,
+        "language": "Jupyter Notebook",
+        "created_at": "2018-10-04T18:42:48+00:00",
+        "updated_at": "2025-11-25T09:44:00+00:00",
+        "topics": [
+          "machine-learning",
+          "ai",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2104.05556",
+      "title": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2104.05556"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/namisan/mt-dnn",
+        "name": "namisan/mt-dnn",
+        "description": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+        "stars": 2258,
+        "forks": 414,
+        "language": "Python",
+        "created_at": "2019-02-19T22:58:26+00:00",
+        "updated_at": "2025-11-21T09:42:51+00:00",
+        "topics": [
+          "multi-task-learning",
+          "natural-language-understanding",
+          "deep-learning",
+          "microsoft",
+          "ranking",
+          "named-entity-recognition",
+          "bert",
+          "machine-reading-comprehension",
+          "nlp",
+          "pytorch"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2109.01652",
+      "title": "Finetuned Language Models Are Zero-Shot Learners",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2109.01652"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/FLAN",
+        "name": "google-research/FLAN",
+        "description": null,
+        "stars": 1554,
+        "forks": 161,
+        "language": "Python",
+        "created_at": "2021-08-21T20:12:17+00:00",
+        "updated_at": "2025-11-20T07:31:53+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2310.11511",
+      "title": "Zephyr: Direct Distillation of LM Alignment",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2310.11511"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/huggingface/alignment-handbook",
+        "name": "huggingface/alignment-handbook",
+        "description": "Robust recipes to align language models with human and AI preferences",
+        "stars": 5429,
+        "forks": 464,
+        "language": "Python",
+        "created_at": "2023-08-25T11:35:34+00:00",
+        "updated_at": "2025-11-24T13:36:38+00:00",
+        "topics": [
+          "llm",
+          "rlhf",
+          "transformers"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2302.07842",
+      "title": "The Flan Collection: Designing Data and Methods for Effective Instruction Tuning",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2302.07842"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/FLAN",
+        "name": "google-research/FLAN",
+        "description": null,
+        "stars": 1554,
+        "forks": 161,
+        "language": "Python",
+        "created_at": "2021-08-21T20:12:17+00:00",
+        "updated_at": "2025-11-20T07:31:53+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1606.05250",
+      "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+      "year": 2016,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1606.05250"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/rajpurkar/SQuAD-explorer",
+        "name": "rajpurkar/SQuAD-explorer",
+        "description": "Visually Explore the Stanford Question Answering Dataset",
+        "stars": 570,
+        "forks": 121,
+        "language": "JavaScript",
+        "created_at": "2016-08-23T07:57:52+00:00",
+        "updated_at": "2025-11-12T13:41:39+00:00",
+        "topics": [
+          "dataset",
+          "visual-analysis",
+          "leaderboard"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1808.07042",
+      "title": "Know What You Don't Know: Unanswerable Questions for SQuAD",
+      "year": 2018,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1808.07042"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/rajpurkar/SQuAD-explorer",
+        "name": "rajpurkar/SQuAD-explorer",
+        "description": "Visually Explore the Stanford Question Answering Dataset",
+        "stars": 570,
+        "forks": 121,
+        "language": "JavaScript",
+        "created_at": "2016-08-23T07:57:52+00:00",
+        "updated_at": "2025-11-12T13:41:39+00:00",
+        "topics": [
+          "dataset",
+          "visual-analysis",
+          "leaderboard"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1804.09301",
+      "title": "Generating Wikipedia by Summarizing Long Sequences",
+      "year": 2018,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1804.09301"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tensorflow/tensor2tensor",
+        "name": "tensorflow/tensor2tensor",
+        "description": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
+        "stars": 16760,
+        "forks": 3702,
+        "language": "Python",
+        "created_at": "2017-06-15T16:57:39+00:00",
+        "updated_at": "2025-11-25T11:46:23+00:00",
+        "topics": [
+          "machine-learning",
+          "machine-translation",
+          "deep-learning",
+          "reinforcement-learning",
+          "tpu"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1802.05365",
+      "title": "Universal Language Model Fine-tuning for Text Classification",
+      "year": 2018,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1802.05365"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/fastai/fastai",
+        "name": "fastai/fastai",
+        "description": "The fastai deep learning library",
+        "stars": 27611,
+        "forks": 7663,
+        "language": "Jupyter Notebook",
+        "created_at": "2017-09-09T17:43:36+00:00",
+        "updated_at": "2025-11-25T07:39:13+00:00",
+        "topics": [
+          "deep-learning",
+          "machine-learning",
+          "pytorch",
+          "python",
+          "gpu",
+          "fastai",
+          "notebooks",
+          "colab"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1905.05583",
+      "title": "Billion-scale similarity search with GPUs",
+      "year": 2019,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/1905.05583"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/faiss",
+        "name": "facebookresearch/faiss",
+        "description": "A library for efficient similarity search and clustering of dense vectors.",
+        "stars": 38143,
+        "forks": 4132,
+        "language": "C++",
+        "created_at": "2017-02-07T16:07:05+00:00",
+        "updated_at": "2025-11-25T12:53:52+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2005.08100",
+      "title": "Question and Answer Test-Train Overlap in Open-Domain QA Datasets",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2005.08100"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research-datasets/natural-questions",
+        "name": "google-research-datasets/natural-questions",
+        "description": "Natural Questions (NQ) contains real user questions issued to Google search, and answers found from Wikipedia by annotators. NQ is designed for the training and evaluation of automatic question answering systems.",
+        "stars": 1074,
+        "forks": 158,
+        "language": "Python",
+        "created_at": "2019-01-22T18:37:59+00:00",
+        "updated_at": "2025-11-23T05:51:22+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1512.03385",
+      "title": "Deep Residual Learning for Image Recognition",
+      "year": 2015,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/1512.03385"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/KaimingHe/deep-residual-networks",
+        "name": "KaimingHe/deep-residual-networks",
+        "description": "Deep Residual Learning for Image Recognition ",
+        "stars": 6664,
+        "forks": 2231,
+        "language": null,
+        "created_at": "2016-02-01T13:07:00+00:00",
+        "updated_at": "2025-11-25T12:47:55+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1409.1556",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "year": 2014,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/1409.1556"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/machrisaa/tensorflow-vgg",
+        "name": "machrisaa/tensorflow-vgg",
+        "description": "VGG19 and VGG16 on Tensorflow",
+        "stars": 2239,
+        "forks": 1073,
+        "language": "Python",
+        "created_at": "2016-03-16T22:17:14+00:00",
+        "updated_at": "2025-11-13T19:49:51+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1608.06993",
+      "title": "Densely Connected Convolutional Networks",
+      "year": 2016,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/1608.06993"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/liuzhuang13/DenseNet",
+        "name": "liuzhuang13/DenseNet",
+        "description": "Densely Connected Convolutional Networks, In CVPR 2017 (Best Paper Award).",
+        "stars": 4843,
+        "forks": 1072,
+        "language": "Lua",
+        "created_at": "2016-08-24T21:32:52+00:00",
+        "updated_at": "2025-11-23T07:38:03+00:00",
+        "topics": [
+          "deep-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1807.11164",
+      "title": "YOLOX: Exceeding YOLO Series in 2021",
+      "year": 2018,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/1807.11164"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/Megvii-BaseDetection/YOLOX",
+        "name": "Megvii-BaseDetection/YOLOX",
+        "description": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/",
+        "stars": 10185,
+        "forks": 2413,
+        "language": "Python",
+        "created_at": "2021-07-17T02:01:45+00:00",
+        "updated_at": "2025-11-25T11:14:48+00:00",
+        "topics": [
+          "yolox",
+          "yolov3",
+          "onnx",
+          "tensorrt",
+          "ncnn",
+          "openvino",
+          "pytorch",
+          "megengine",
+          "object-detection",
+          "yolo",
+          "deep-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2010.11929",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "year": 2020,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2010.11929"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/vision_transformer",
+        "name": "google-research/vision_transformer",
+        "description": null,
+        "stars": 12040,
+        "forks": 1432,
+        "language": "Jupyter Notebook",
+        "created_at": "2020-10-21T12:35:02+00:00",
+        "updated_at": "2025-11-25T12:35:44+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2103.14899",
+      "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+      "year": 2021,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2103.14899"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/microsoft/Swin-Transformer",
+        "name": "microsoft/Swin-Transformer",
+        "description": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\".",
+        "stars": 15466,
+        "forks": 2198,
+        "language": "Python",
+        "created_at": "2021-03-25T12:42:36+00:00",
+        "updated_at": "2025-11-25T12:39:30+00:00",
+        "topics": [
+          "swin-transformer",
+          "image-classification",
+          "object-detection",
+          "semantic-segmentation",
+          "imagenet",
+          "mscoco",
+          "ade20k",
+          "mask-rcnn"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2205.01917",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "year": 2022,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2205.01917"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/mae",
+        "name": "facebookresearch/mae",
+        "description": "PyTorch implementation of MAE https//arxiv.org/abs/2111.06377",
+        "stars": 8108,
+        "forks": 1332,
+        "language": "Python",
+        "created_at": "2021-12-06T21:29:09+00:00",
+        "updated_at": "2025-11-25T07:19:59+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2304.02643",
+      "title": "Segment Anything",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2304.02643"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/segment-anything",
+        "name": "facebookresearch/segment-anything",
+        "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+        "stars": 52657,
+        "forks": 6157,
+        "language": "Jupyter Notebook",
+        "created_at": "2023-03-23T17:03:03+00:00",
+        "updated_at": "2025-11-25T12:15:13+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2309.16588",
+      "title": "Segment Anything in Medical Images",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2309.16588"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/bowang-lab/MedSAM",
+        "name": "bowang-lab/MedSAM",
+        "description": "Segment Anything in Medical Images",
+        "stars": 3930,
+        "forks": 532,
+        "language": "Jupyter Notebook",
+        "created_at": "2023-04-22T19:57:25+00:00",
+        "updated_at": "2025-11-24T22:33:14+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1412.6980",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "year": 2014,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1412.6980"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/pytorch/pytorch",
+        "name": "pytorch/pytorch",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "stars": 95348,
+        "forks": 26003,
+        "language": "Python",
+        "created_at": "2016-08-13T05:26:41+00:00",
+        "updated_at": "2025-11-25T11:41:19+00:00",
+        "topics": [
+          "neural-network",
+          "autograd",
+          "gpu",
+          "numpy",
+          "deep-learning",
+          "tensor",
+          "python",
+          "machine-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1711.05101",
+      "title": "Decoupled Weight Decay Regularization",
+      "year": 2017,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1711.05101"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/pytorch/pytorch",
+        "name": "pytorch/pytorch",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "stars": 95348,
+        "forks": 26003,
+        "language": "Python",
+        "created_at": "2016-08-13T05:26:41+00:00",
+        "updated_at": "2025-11-25T11:41:19+00:00",
+        "topics": [
+          "neural-network",
+          "autograd",
+          "gpu",
+          "numpy",
+          "deep-learning",
+          "tensor",
+          "python",
+          "machine-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2002.04745",
+      "title": "Lookahead Optimizer: k steps forward, 1 step back",
+      "year": 2020,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2002.04745"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/alphadl/lookahead.pytorch",
+        "name": "alphadl/lookahead.pytorch",
+        "description": "lookahead optimizer (Lookahead Optimizer: k steps forward, 1 step back) for pytorch ",
+        "stars": 337,
+        "forks": 64,
+        "language": "Python",
+        "created_at": "2019-07-25T11:15:29+00:00",
+        "updated_at": "2025-10-14T03:40:40+00:00",
+        "topics": [
+          "pytorch",
+          "optimizer",
+          "lookahead"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1810.04805",
+      "title": "Mixed Precision Training",
+      "year": 2018,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1810.04805"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/NVIDIA/apex",
+        "name": "NVIDIA/apex",
+        "description": "A PyTorch Extension:  Tools for easy mixed precision and distributed training in Pytorch",
+        "stars": 8854,
+        "forks": 1505,
+        "language": "Python",
+        "created_at": "2018-04-23T16:28:52+00:00",
+        "updated_at": "2025-11-25T03:05:46+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1910.02054",
+      "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+      "year": 2019,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1910.02054"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/deepspeedai/DeepSpeed",
+        "name": "deepspeedai/DeepSpeed",
+        "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+        "stars": 40796,
+        "forks": 4646,
+        "language": "Python",
+        "created_at": "2020-01-23T18:35:18+00:00",
+        "updated_at": "2025-11-25T12:56:42+00:00",
+        "topics": [
+          "deep-learning",
+          "pytorch",
+          "gpu",
+          "machine-learning",
+          "billion-parameters",
+          "data-parallelism",
+          "model-parallelism",
+          "inference",
+          "pipeline-parallelism",
+          "compression",
+          "mixture-of-experts",
+          "trillion-parameters",
+          "zero"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2205.05198",
+      "title": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+      "year": 2022,
+      "category": "cs.DC",
+      "url": "https://arxiv.org/abs/2205.05198"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/pytorch/pytorch",
+        "name": "pytorch/pytorch",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "stars": 95348,
+        "forks": 26003,
+        "language": "Python",
+        "created_at": "2016-08-13T05:26:41+00:00",
+        "updated_at": "2025-11-25T11:41:19+00:00",
+        "topics": [
+          "neural-network",
+          "autograd",
+          "gpu",
+          "numpy",
+          "deep-learning",
+          "tensor",
+          "python",
+          "machine-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1301.3781",
+      "title": "Efficient Estimation of Word Representations in Vector Space",
+      "year": 2013,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1301.3781"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tmikolov/word2vec",
+        "name": "tmikolov/word2vec",
+        "description": "Automatically exported from code.google.com/p/word2vec",
+        "stars": 1569,
+        "forks": 546,
+        "language": "C",
+        "created_at": "2015-08-12T11:04:28+00:00",
+        "updated_at": "2025-11-17T05:50:19+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1607.01759",
+      "title": "Enriching Word Vectors with Subword Information",
+      "year": 2016,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1607.01759"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/fastText",
+        "name": "facebookresearch/fastText",
+        "description": "Library for fast text representation and classification.",
+        "stars": 26432,
+        "forks": 4813,
+        "language": "HTML",
+        "created_at": "2016-07-16T13:38:42+00:00",
+        "updated_at": "2025-11-25T08:52:27+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1802.05365",
+      "title": "Deep contextualized word representations",
+      "year": 2018,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1802.05365"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/allenai/allennlp",
+        "name": "allenai/allennlp",
+        "description": "An open-source NLP research library, built on PyTorch.",
+        "stars": 11886,
+        "forks": 2241,
+        "language": "Python",
+        "created_at": "2017-05-15T15:52:41+00:00",
+        "updated_at": "2025-11-25T09:21:15+00:00",
+        "topics": [
+          "pytorch",
+          "nlp",
+          "natural-language-processing",
+          "deep-learning",
+          "data-science",
+          "python"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2101.00027",
+      "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2101.00027"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/princeton-nlp/SimCSE",
+        "name": "princeton-nlp/SimCSE",
+        "description": "[EMNLP 2021] SimCSE: Simple Contrastive Learning of Sentence Embeddings https://arxiv.org/abs/2104.08821",
+        "stars": 3615,
+        "forks": 531,
+        "language": "Python",
+        "created_at": "2021-04-16T02:57:04+00:00",
+        "updated_at": "2025-11-25T07:41:43+00:00",
+        "topics": [
+          "nlp",
+          "sentence-embeddings"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2212.03533",
+      "title": "Text Embeddings by Weakly-Supervised Contrastive Pre-training",
+      "year": 2022,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2212.03533"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/microsoft/unilm",
+        "name": "microsoft/unilm",
+        "description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
+        "stars": 21848,
+        "forks": 2674,
+        "language": "Python",
+        "created_at": "2019-07-23T04:15:28+00:00",
+        "updated_at": "2025-11-25T06:06:05+00:00",
+        "topics": [
+          "nlp",
+          "pre-trained-model",
+          "unilm",
+          "minilm",
+          "layoutlm",
+          "layoutxlm",
+          "beit",
+          "document-ai",
+          "trocr",
+          "beit-3",
+          "foundation-models",
+          "xlm-e",
+          "deepnet",
+          "llm",
+          "multimodal",
+          "mllm",
+          "kosmos",
+          "kosmos-1",
+          "textdiffuser",
+          "bitnet"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1905.09418",
+      "title": "BERT Rediscovers the Classical NLP Pipeline",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1905.09418"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/clarkkev/attention-analysis",
+        "name": "clarkkev/attention-analysis",
+        "description": null,
+        "stars": 469,
+        "forks": 82,
+        "language": "Jupyter Notebook",
+        "created_at": "2019-06-07T21:36:34+00:00",
+        "updated_at": "2025-11-21T09:42:57+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2004.03270",
+      "title": "Analyzing the Structure of Attention in a Transformer Language Model",
+      "year": 2020,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2004.03270"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/clarkkev/attention-analysis",
+        "name": "clarkkev/attention-analysis",
+        "description": null,
+        "stars": 469,
+        "forks": 82,
+        "language": "Jupyter Notebook",
+        "created_at": "2019-06-07T21:36:34+00:00",
+        "updated_at": "2025-11-21T09:42:57+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1904.12848",
+      "title": "EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1904.12848"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/jasonwei20/eda_nlp",
+        "name": "jasonwei20/eda_nlp",
+        "description": "Data augmentation for NLP, presented at EMNLP 2019",
+        "stars": 1649,
+        "forks": 317,
+        "language": "Python",
+        "created_at": "2018-12-27T02:02:36+00:00",
+        "updated_at": "2025-11-23T17:01:48+00:00",
+        "topics": [
+          "nlp",
+          "data-augmentation",
+          "text-classification",
+          "synonyms",
+          "embeddings",
+          "sentence",
+          "classification",
+          "rnn",
+          "cnn",
+          "swap",
+          "position"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2302.13007",
+      "title": "Synthetic Data Generation with Large Language Models",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2302.13007"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/google-research",
+        "name": "google-research/google-research",
+        "description": "Google Research",
+        "stars": 36800,
+        "forks": 8255,
+        "language": "Jupyter Notebook",
+        "created_at": "2018-10-04T18:42:48+00:00",
+        "updated_at": "2025-11-25T09:44:00+00:00",
+        "topics": [
+          "machine-learning",
+          "ai",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2305.07185",
+      "title": "LIMA: Less Is More for Alignment",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2305.07185"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/meta-llama/llama",
+        "name": "meta-llama/llama",
+        "description": "Inference code for Llama models",
+        "stars": 58946,
+        "forks": 9817,
+        "language": "Python",
+        "created_at": "2023-02-14T09:29:12+00:00",
+        "updated_at": "2025-11-25T06:16:37+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2206.01861",
+      "title": "LLM.int8(): 8-bit Matrix Multiplication for Transformers",
+      "year": 2022,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2206.01861"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+        "name": "bitsandbytes-foundation/bitsandbytes",
+        "description": "Accessible large language models via k-bit quantization for PyTorch.",
+        "stars": 7771,
+        "forks": 797,
+        "language": "Python",
+        "created_at": "2021-06-04T00:10:34+00:00",
+        "updated_at": "2025-11-25T12:04:09+00:00",
+        "topics": [
+          "llm",
+          "machine-learning",
+          "pytorch",
+          "qlora",
+          "quantization"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2210.17323",
+      "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+      "year": 2022,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2210.17323"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/IST-DASLab/gptq",
+        "name": "IST-DASLab/gptq",
+        "description": "Code for the ICLR 2023 paper \"GPTQ: Accurate Post-training Quantization of Generative Pretrained Transformers\".",
+        "stars": 2221,
+        "forks": 186,
+        "language": "Python",
+        "created_at": "2022-10-19T15:11:53+00:00",
+        "updated_at": "2025-11-19T11:29:10+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2306.00978",
+      "title": "AWQ: Activation-aware Weight Quantization for LLM Compression",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2306.00978"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/mit-han-lab/llm-awq",
+        "name": "mit-han-lab/llm-awq",
+        "description": "[MLSys 2024 Best Paper Award] AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+        "stars": 3357,
+        "forks": 283,
+        "language": "Python",
+        "created_at": "2023-06-01T00:42:45+00:00",
+        "updated_at": "2025-11-25T03:45:24+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2211.10438",
+      "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization",
+      "year": 2022,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2211.10438"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/mit-han-lab/smoothquant",
+        "name": "mit-han-lab/smoothquant",
+        "description": "[ICML 2023] SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+        "stars": 1561,
+        "forks": 190,
+        "language": "Python",
+        "created_at": "2022-11-17T17:27:49+00:00",
+        "updated_at": "2025-11-24T07:58:04+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1503.02531",
+      "title": "Distilling the Knowledge in a Neural Network",
+      "year": 2015,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1503.02531"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/haitongli/knowledge-distillation-pytorch",
+        "name": "haitongli/knowledge-distillation-pytorch",
+        "description": "A PyTorch implementation for exploring deep and shallow knowledge distillation (KD) experiments with flexibility",
+        "stars": 1973,
+        "forks": 351,
+        "language": "Python",
+        "created_at": "2018-03-09T23:58:31+00:00",
+        "updated_at": "2025-11-24T08:46:52+00:00",
+        "topics": [
+          "pytorch",
+          "knowledge-distillation",
+          "deep-neural-networks",
+          "cifar10",
+          "model-compression",
+          "dark-knowledge",
+          "computer-vision"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1909.10351",
+      "title": "DistilBERT: a distilled version of BERT",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1909.10351"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/huggingface/transformers",
+        "name": "huggingface/transformers",
+        "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+        "stars": 152994,
+        "forks": 31218,
+        "language": "Python",
+        "created_at": "2018-10-29T13:56:00+00:00",
+        "updated_at": "2025-11-25T12:59:17+00:00",
+        "topics": [
+          "nlp",
+          "natural-language-processing",
+          "pytorch",
+          "pytorch-transformers",
+          "transformer",
+          "model-hub",
+          "pretrained-models",
+          "speech-recognition",
+          "hacktoberfest",
+          "python",
+          "machine-learning",
+          "deep-learning",
+          "audio",
+          "deepseek",
+          "gemma",
+          "glm",
+          "llm",
+          "qwen",
+          "vlm"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1910.01108",
+      "title": "TinyBERT: Distilling BERT for Natural Language Understanding",
+      "year": 2019,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/1910.01108"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/huawei-noah/Pretrained-Language-Model",
+        "name": "huawei-noah/Pretrained-Language-Model",
+        "description": "Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+        "stars": 3149,
+        "forks": 644,
+        "language": "Python",
+        "created_at": "2019-12-02T14:26:04+00:00",
+        "updated_at": "2025-11-24T03:38:43+00:00",
+        "topics": [
+          "knowledge-distillation",
+          "model-compression",
+          "quantization",
+          "pretrained-models",
+          "large-scale-distributed"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1312.5602",
+      "title": "Playing Atari with Deep Reinforcement Learning",
+      "year": 2013,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1312.5602"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-deepmind/dqn",
+        "name": "google-deepmind/dqn",
+        "description": "Lua/Torch implementation of DQN (Nature, 2015)",
+        "stars": 618,
+        "forks": 164,
+        "language": "Lua",
+        "created_at": "2017-04-06T15:46:46+00:00",
+        "updated_at": "2025-11-25T00:30:58+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1707.06347",
+      "title": "Proximal Policy Optimization Algorithms",
+      "year": 2017,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1707.06347"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/openai/baselines",
+        "name": "openai/baselines",
+        "description": "OpenAI Baselines: high-quality implementations of reinforcement learning algorithms",
+        "stars": 16566,
+        "forks": 4951,
+        "language": "Python",
+        "created_at": "2017-05-24T01:58:13+00:00",
+        "updated_at": "2025-11-24T02:40:57+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1801.01290",
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning",
+      "year": 2018,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1801.01290"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/rail-berkeley/softlearning",
+        "name": "rail-berkeley/softlearning",
+        "description": "Softlearning is a reinforcement learning framework for training maximum entropy policies in continuous domains. Includes the official implementation of the Soft Actor-Critic algorithm.",
+        "stars": 1370,
+        "forks": 249,
+        "language": "Python",
+        "created_at": "2018-12-03T05:55:54+00:00",
+        "updated_at": "2025-11-25T12:23:34+00:00",
+        "topics": [
+          "reinforcement-learning",
+          "soft-actor-critic",
+          "deep-learning",
+          "deep-reinforcement-learning",
+          "deep-neural-networks",
+          "machine-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1910.01741",
+      "title": "Dream to Control: Learning Behaviors by Latent Imagination",
+      "year": 2019,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1910.01741"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/danijar/dreamer",
+        "name": "danijar/dreamer",
+        "description": "Dream to Control: Learning Behaviors by Latent Imagination",
+        "stars": 565,
+        "forks": 113,
+        "language": "Python",
+        "created_at": "2020-01-27T18:19:56+00:00",
+        "updated_at": "2025-11-22T00:33:05+00:00",
+        "topics": [
+          "reinforcement-learning",
+          "artificial-intelligence",
+          "deep-learning",
+          "robotics",
+          "world-models"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1703.04691",
+      "title": "Neural Message Passing for Quantum Chemistry",
+      "year": 2017,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1703.04691"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/priba/nmp_qc",
+        "name": "priba/nmp_qc",
+        "description": "Our own implementation of Neural Message Passing for Computer Vision paper",
+        "stars": 343,
+        "forks": 84,
+        "language": "Python",
+        "created_at": "2017-04-19T19:10:59+00:00",
+        "updated_at": "2025-10-23T06:57:41+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2305.10425",
+      "title": "Time-LLM: Time Series Forecasting by Reprogramming Large Language Models",
+      "year": 2023,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/2305.10425"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/KimMeen/Time-LLM",
+        "name": "KimMeen/Time-LLM",
+        "description": "[ICLR 2024] Official implementation of \" 🦙 Time-LLM: Time Series Forecasting by Reprogramming Large Language Models\"",
+        "stars": 2377,
+        "forks": 416,
+        "language": "Python",
+        "created_at": "2024-01-20T01:26:30+00:00",
+        "updated_at": "2025-11-25T07:15:39+00:00",
+        "topics": [
+          "cross-modal-learning",
+          "cross-modality",
+          "deep-learning",
+          "language-model",
+          "large-language-models",
+          "machine-learning",
+          "multimodal-deep-learning",
+          "multimodal-time-series",
+          "prompt-tuning",
+          "time-series",
+          "time-series-analysis",
+          "time-series-forecast",
+          "time-series-forecasting"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1606.07792",
+      "title": "Wide & Deep Learning for Recommender Systems",
+      "year": 2016,
+      "category": "cs.IR",
+      "url": "https://arxiv.org/abs/1606.07792"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tensorflow/models",
+        "name": "tensorflow/models",
+        "description": "Models and examples built with TensorFlow",
+        "stars": 77677,
+        "forks": 45409,
+        "language": "Python",
+        "created_at": "2016-02-05T01:15:20+00:00",
+        "updated_at": "2025-11-25T12:42:16+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1708.05031",
+      "title": "Neural Collaborative Filtering",
+      "year": 2017,
+      "category": "cs.IR",
+      "url": "https://arxiv.org/abs/1708.05031"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/hexiangnan/neural_collaborative_filtering",
+        "name": "hexiangnan/neural_collaborative_filtering",
+        "description": "Neural Collaborative Filtering",
+        "stars": 1867,
+        "forks": 666,
+        "language": "Python",
+        "created_at": "2017-02-02T02:55:58+00:00",
+        "updated_at": "2025-11-23T11:47:26+00:00",
+        "topics": [
+          "deep-learning",
+          "recommender-system",
+          "collaborative-filtering"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1603.04467",
+      "title": "TensorFlow: A System for Large-Scale Machine Learning",
+      "year": 2016,
+      "category": "cs.DC",
+      "url": "https://arxiv.org/abs/1603.04467"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/tensorflow/tensorflow",
+        "name": "tensorflow/tensorflow",
+        "description": "An Open Source Machine Learning Framework for Everyone",
+        "stars": 192543,
+        "forks": 74998,
+        "language": "C++",
+        "created_at": "2015-11-07T01:19:20+00:00",
+        "updated_at": "2025-11-25T13:02:37+00:00",
+        "topics": [
+          "tensorflow",
+          "machine-learning",
+          "python",
+          "deep-learning",
+          "deep-neural-networks",
+          "neural-network",
+          "ml",
+          "distributed"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1912.01703",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "year": 2019,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1912.01703"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/pytorch/pytorch",
+        "name": "pytorch/pytorch",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "stars": 95348,
+        "forks": 26003,
+        "language": "Python",
+        "created_at": "2016-08-13T05:26:41+00:00",
+        "updated_at": "2025-11-25T11:41:19+00:00",
+        "topics": [
+          "neural-network",
+          "autograd",
+          "gpu",
+          "numpy",
+          "deep-learning",
+          "tensor",
+          "python",
+          "machine-learning"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1902.05188",
+      "title": "JAX: Composable transformations of Python+NumPy programs",
+      "year": 2019,
+      "category": "cs.MS",
+      "url": "https://arxiv.org/abs/1902.05188"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/jax-ml/jax",
+        "name": "jax-ml/jax",
+        "description": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more",
+        "stars": 34091,
+        "forks": 3264,
+        "language": "Python",
+        "created_at": "2018-10-25T21:25:02+00:00",
+        "updated_at": "2025-11-25T11:26:56+00:00",
+        "topics": [
+          "jax"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1711.00489",
+      "title": "Horovod: fast and easy distributed deep learning in TensorFlow",
+      "year": 2017,
+      "category": "cs.LG",
+      "url": "https://arxiv.org/abs/1711.00489"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/horovod/horovod",
+        "name": "horovod/horovod",
+        "description": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.",
+        "stars": 14631,
+        "forks": 2255,
+        "language": "Python",
+        "created_at": "2017-08-09T19:39:59+00:00",
+        "updated_at": "2025-11-24T06:56:36+00:00",
+        "topics": [
+          "tensorflow",
+          "uber",
+          "machine-learning",
+          "machinelearning",
+          "mpi",
+          "baidu",
+          "deep-learning",
+          "deeplearning",
+          "keras",
+          "pytorch",
+          "mxnet",
+          "spark",
+          "ray"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1506.02640",
+      "title": "Faster R-CNN: Towards Real-Time Object Detection",
+      "year": 2015,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/1506.02640"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/rbgirshick/py-faster-rcnn",
+        "name": "rbgirshick/py-faster-rcnn",
+        "description": "Faster R-CNN (Python implementation) -- see https://github.com/ShaoqingRen/faster_rcnn for the official MATLAB version",
+        "stars": 8269,
+        "forks": 4102,
+        "language": "Python",
+        "created_at": "2015-09-25T21:04:08+00:00",
+        "updated_at": "2025-11-25T02:46:52+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "1612.03144",
+      "title": "Feature Pyramid Networks for Object Detection",
+      "year": 2016,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/1612.03144"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/Detectron",
+        "name": "facebookresearch/Detectron",
+        "description": "FAIR's research platform for object detection research, implementing popular algorithms like Mask R-CNN and RetinaNet.",
+        "stars": 26396,
+        "forks": 5440,
+        "language": "Python",
+        "created_at": "2017-10-05T17:32:00+00:00",
+        "updated_at": "2025-11-25T11:45:07+00:00",
+        "topics": []
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2005.12872",
+      "title": "EfficientDet: Scalable and Efficient Object Detection",
+      "year": 2020,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2005.12872"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google/automl",
+        "name": "google/automl",
+        "description": "Google Brain AutoML",
+        "stars": 6425,
+        "forks": 1463,
+        "language": "Jupyter Notebook",
+        "created_at": "2020-03-12T03:52:47+00:00",
+        "updated_at": "2025-11-23T12:38:40+00:00",
+        "topics": [
+          "automl",
+          "efficientdet",
+          "object-detection",
+          "efficientnet",
+          "efficientnetv2"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2303.11331",
+      "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training",
+      "year": 2023,
+      "category": "cs.CV",
+      "url": "https://arxiv.org/abs/2303.11331"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/IDEA-Research/GroundingDINO",
+        "name": "IDEA-Research/GroundingDINO",
+        "description": "[ECCV 2024] Official implementation of the paper \"Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection\"",
+        "stars": 9324,
+        "forks": 969,
+        "language": "Python",
+        "created_at": "2023-03-09T06:14:41+00:00",
+        "updated_at": "2025-11-25T07:32:15+00:00",
+        "topics": [
+          "object-detection",
+          "open-world",
+          "open-world-detection",
+          "vision-language",
+          "vision-language-transformer"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2106.07447",
+      "title": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2106.07447"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/fairseq",
+        "name": "facebookresearch/fairseq",
+        "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+        "stars": 31985,
+        "forks": 6630,
+        "language": "Python",
+        "created_at": "2017-08-29T16:26:12+00:00",
+        "updated_at": "2025-11-25T12:24:30+00:00",
+        "topics": [
+          "python",
+          "pytorch",
+          "artificial-intelligence"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2109.04908",
+      "title": "XLS-R: Self-supervised Cross-lingual Speech Representation Learning at Scale",
+      "year": 2021,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2109.04908"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/facebookresearch/fairseq",
+        "name": "facebookresearch/fairseq",
+        "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+        "stars": 31985,
+        "forks": 6630,
+        "language": "Python",
+        "created_at": "2017-08-29T16:26:12+00:00",
+        "updated_at": "2025-11-25T12:24:30+00:00",
+        "topics": [
+          "python",
+          "pytorch",
+          "artificial-intelligence"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2307.00109",
+      "title": "Med-PaLM 2: Towards Expert-Level Medical Question Answering",
+      "year": 2023,
+      "category": "cs.CL",
+      "url": "https://arxiv.org/abs/2307.00109"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/google-research/google-research",
+        "name": "google-research/google-research",
+        "description": "Google Research",
+        "stars": 36800,
+        "forks": 8255,
+        "language": "Jupyter Notebook",
+        "created_at": "2018-10-04T18:42:48+00:00",
+        "updated_at": "2025-11-25T09:44:00+00:00",
+        "topics": [
+          "machine-learning",
+          "ai",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "paper": {
+      "arxiv_id": "2306.04190",
+      "title": "ChemCrow: Augmenting large-language models with chemistry tools",
+      "year": 2023,
+      "category": "cs.AI",
+      "url": "https://arxiv.org/abs/2306.04190"
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/ur-whitelab/chemcrow-public",
+        "name": "ur-whitelab/chemcrow-public",
+        "description": "Chemcrow",
+        "stars": 838,
+        "forks": 130,
+        "language": "Python",
+        "created_at": "2023-06-04T15:59:05+00:00",
+        "updated_at": "2025-11-24T09:41:30+00:00",
+        "topics": []
+      }
+    ]
+  }
+]
