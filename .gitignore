@@ -29,8 +29,9 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
-# Models
-models/
+# Model outputs
+output/
+checkpoints/
 *.h5
 *.pkl
 *.pth
@@ -60,3 +61,9 @@ build/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+*.bin
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface/

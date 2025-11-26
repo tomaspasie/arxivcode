@@ -7,6 +7,7 @@ import json
 import time
 import os
 import sys
+import re
 from typing import List, Dict
 from pathlib import Path
 from github import Github
@@ -33,15 +34,8 @@ class PapersWithCodeCollector:
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
         # Initialize GitHub API
-        self.github_token = github_token or os.getenv('GITHUB_TOKEN')
+        self.github_token = github_token or os.getenv("GITHUB_TOKEN")
         self.github = Github(self.github_token) if self.github_token else Github()
-
-    def get_curated_papers(self) -> List[Dict]:
-        """
-        Get a curated list of 200+ high-impact papers with known GitHub repos
-        Imports from curated_papers_list module for easy maintenance and expansion
-        """
-        return get_curated_papers()
 
     def validate_and_fetch_repos(self, paper: Dict, min_stars: int = 50) -> List[Dict]:
         """
@@ -55,13 +49,13 @@ class PapersWithCodeCollector:
             List of repository dictionaries
         """
         repos = []
-        github_urls = paper.get('github_urls', [])
+        github_urls = paper.get("github_urls", [])
 
         for url in github_urls:
             try:
                 # Extract owner/repo from URL
-                import re
-                match = re.search(r'github\.com/([\w-]+)/([\w.-]+)', url, re.IGNORECASE)
+
+                match = re.search(r"github\.com/([\w-]+)/([\w.-]+)", url, re.IGNORECASE)
                 if not match:
                     continue
 
@@ -71,20 +65,28 @@ class PapersWithCodeCollector:
                 # Check if repo meets minimum stars requirement
                 if repo.stargazers_count >= min_stars:
                     repo_data = {
-                        'url': repo.html_url,
-                        'name': repo.full_name,
-                        'description': repo.description,
-                        'stars': repo.stargazers_count,
-                        'forks': repo.forks_count,
-                        'language': repo.language,
-                        'created_at': repo.created_at.isoformat() if repo.created_at else None,
-                        'updated_at': repo.updated_at.isoformat() if repo.updated_at else None,
-                        'topics': repo.get_topics() if hasattr(repo, 'get_topics') else []
+                        "url": repo.html_url,
+                        "name": repo.full_name,
+                        "description": repo.description,
+                        "stars": repo.stargazers_count,
+                        "forks": repo.forks_count,
+                        "language": repo.language,
+                        "created_at": (
+                            repo.created_at.isoformat() if repo.created_at else None
+                        ),
+                        "updated_at": (
+                            repo.updated_at.isoformat() if repo.updated_at else None
+                        ),
+                        "topics": (
+                            repo.get_topics() if hasattr(repo, "get_topics") else []
+                        ),
                     }
                     repos.append(repo_data)
                     logger.info(f"  ✓ {repo.full_name} ({repo.stargazers_count} stars)")
                 else:
-                    logger.info(f"  ✗ {owner}/{repo_name} has only {repo.stargazers_count} stars (min: {min_stars})")
+                    logger.info(
+                        f"  ✗ {owner}/{repo_name} has only {repo.stargazers_count} stars (min: {min_stars})"
+                    )
 
                 time.sleep(1)  # Rate limiting
 
@@ -107,29 +109,31 @@ class PapersWithCodeCollector:
         logger.info("Starting curated paper-code collection")
         logger.info(f"Filters - Min Stars: >={min_stars}")
 
-        papers = self.get_curated_papers()
+        papers = get_curated_papers()
         logger.info(f"Processing {len(papers)} curated papers")
 
         paper_code_pairs = []
 
         for i, paper_info in enumerate(papers, 1):
-            logger.info(f"\n[{i}/{len(papers)}] Processing: {paper_info['title'][:60]}...")
+            logger.info(
+                f"\n[{i}/{len(papers)}] Processing: {paper_info['title'][:60]}..."
+            )
 
             repos = self.validate_and_fetch_repos(paper_info, min_stars=min_stars)
 
             if repos:
                 # Create full paper metadata (simplified version)
                 paper = {
-                    'arxiv_id': paper_info['arxiv_id'],
-                    'title': paper_info['title'],
-                    'year': paper_info['year'],
-                    'category': paper_info['category'],
-                    'url': f"https://arxiv.org/abs/{paper_info['arxiv_id']}"
+                    "arxiv_id": paper_info["arxiv_id"],
+                    "title": paper_info["title"],
+                    "year": paper_info["year"],
+                    "category": paper_info["category"],
+                    "url": f"https://arxiv.org/abs/{paper_info['arxiv_id']}",
                 }
 
                 pair = {
-                    'paper': paper,
-                    'repositories': repos,
+                    "paper": paper,
+                    "repositories": repos,
                 }
                 paper_code_pairs.append(pair)
                 logger.info(f"  ✓ Added pair with {len(repos)} repositories")
@@ -139,42 +143,46 @@ class PapersWithCodeCollector:
         logger.info(f"\nTotal paper-code pairs collected: {len(paper_code_pairs)}")
         return paper_code_pairs
 
-    def save_results(self, pairs: List[Dict], filename: str = "paper_code_pairs.json") -> Path:
+    def save_results(
+        self, pairs: List[Dict], filename: str = "paper_code_pairs.json"
+    ) -> Path:
         """Save collected paper-code pairs to JSON file"""
         output_path = self.output_dir / filename
 
-        with open(output_path, 'w', encoding='utf-8') as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             json.dump(pairs, f, indent=2, ensure_ascii=False)
 
         logger.info(f"Saved {len(pairs)} paper-code pairs to {output_path}")
 
         # Save statistics
         stats = {
-            'total_pairs': len(pairs),
-            'total_repositories': sum(len(p.get('repositories', [])) for p in pairs),
-            'papers_by_year': {},
-            'avg_stars': 0
+            "total_pairs": len(pairs),
+            "total_repositories": sum(len(p.get("repositories", [])) for p in pairs),
+            "papers_by_year": {},
+            "avg_stars": 0,
         }
 
         all_stars = []
         for pair in pairs:
-            paper = pair.get('paper', {})
-            year = paper.get('year', '')
+            paper = pair.get("paper", {})
+            year = paper.get("year", "")
             if year:
-                stats['papers_by_year'][str(year)] = stats['papers_by_year'].get(str(year), 0) + 1
+                stats["papers_by_year"][str(year)] = (
+                    stats["papers_by_year"].get(str(year), 0) + 1
+                )
 
-            for repo in pair.get('repositories', []):
-                stars = repo.get('stars', 0)
+            for repo in pair.get("repositories", []):
+                stars = repo.get("stars", 0)
                 if stars:
                     all_stars.append(stars)
 
         if all_stars:
-            stats['avg_stars'] = sum(all_stars) / len(all_stars)
-            stats['max_stars'] = max(all_stars)
-            stats['min_stars'] = min(all_stars)
+            stats["avg_stars"] = sum(all_stars) / len(all_stars)
+            stats["max_stars"] = max(all_stars)
+            stats["min_stars"] = min(all_stars)
 
         stats_path = self.output_dir / "collection_stats.json"
-        with open(stats_path, 'w', encoding='utf-8') as f:
+        with open(stats_path, "w", encoding="utf-8") as f:
             json.dump(stats, f, indent=2)
 
         logger.info(f"Saved statistics to {stats_path}")
@@ -183,7 +191,7 @@ class PapersWithCodeCollector:
 
 def main():
     """Main execution function"""
-    github_token = os.getenv('GITHUB_TOKEN')
+    github_token = os.getenv("GITHUB_TOKEN")
     if not github_token:
         logger.warning("No GITHUB_TOKEN found. API rate limits will be lower.")
 
@@ -206,14 +214,14 @@ def main():
         # Display sample pairs
         print("Sample paper-code pairs:")
         for i, pair in enumerate(pairs[:5], 1):
-            paper = pair['paper']
-            repos = pair['repositories']
+            paper = pair["paper"]
+            repos = pair["repositories"]
             print(f"\n{i}. {paper['title']}")
             print(f"   ArXiv: {paper['arxiv_id']}")
             print(f"   Year: {paper.get('year', 'N/A')}")
             print(f"   Repositories: {len(repos)}")
             if repos:
-                top_repo = max(repos, key=lambda r: r.get('stars', 0))
+                top_repo = max(repos, key=lambda r: r.get("stars", 0))
                 print(f"   Top repo: {top_repo['name']} ({top_repo['stars']} stars)")
     else:
         print("No pairs collected!")
