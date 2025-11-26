@@ -1,6 +1,7 @@
 # Data Collection Guide
 
 ## Quick Start
+_Make sure you follow the setup in the `README.md` before running the below commands_
 
 ```bash
 # 1. Get GitHub token at: https://github.com/settings/tokens
