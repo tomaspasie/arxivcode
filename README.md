@@ -39,7 +39,7 @@ Output: `data/raw/papers/paper_code_pairs.json` (249 papers currently)
 huggingface-cli login
 
 # Test model setup
-python examples/test_model_loading.py
+python tests/test_model_loading.py
 ```
 
 See [Paper Comprehension Model Guide](docs/PAPER_COMPREHENSION_MODEL.md) for training details.
@@ -71,31 +71,32 @@ python -m src.retrieval.test_retrieval
 - TF-IDF embeddings for stable, CPU-friendly similarity search
 - Repository-level code retrieval
 - Query filtering by stars, year, and topics
-- Validated on 153 paper-code pairs with strong relevance
+- Validated with strong relevance on ML/AI queries
 
 ## Current Status
 
-✅ **Phase 1: Data Collection** (Complete)
-- Papers With Code integration
+✅ **Phase 1: Data Collection** (Complete - Days 1-3)
 - ArXiv API integration
 - GitHub repository search
 - Filtering & metadata collection
+- 249 paper-code pairs collected
 
-✅ **Phase 2: Retrieval System** (Complete)
-- FAISS indexing with TF-IDF embeddings
-- Dense retrieval pipeline
-- Query testing and validation
+🔄 **Phase 2: Model Development & Retrieval** (In Progress - Days 4-7)
+- **Code Understanding Model**: CodeBERT/StarCoder-Base with contrastive learning
+- **Paper Comprehension Model**: LLaMA-3/Mistral with QLoRA fine-tuning
+- **Retrieval System**: FAISS indexing with TF-IDF embeddings
+- Dense retrieval pipeline and query testing
 
-⏳ **Phase 3: Data Processing** (Upcoming)
-- Function-level code snippet extraction
-- Cross-encoder re-ranking
+⏳ **Phase 3: System Integration** (Upcoming - Days 8-12)
+- Backend API (Flask/FastAPI) for model inference
+- Connect fine-tuned LLM to retrieval results
+- Web interface with search functionality
+- End-to-end testing and performance optimization
 
-**Progress**:
-- ✅ Data Collection (2-stage: curated + automated)
-- ✅ Model Setup (QLoRA with LLaMA-3/Mistral)
-- ⏳ Training Pipeline (in progress)
-- ⏳ Retrieval System
-- ⏳ API & Frontend
+⏳ **Phase 4: Documentation & Delivery** (Final - Days 13-14)
+- Technical documentation and finalization of README
+- Final report and presentation slides
+- Demo video and deployment instructions
 
 ## Documentation
 
