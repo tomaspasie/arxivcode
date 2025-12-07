@@ -4,11 +4,78 @@ Loads microsoft/codebert-base and verifies it works correctly
 """
 
 import torch
+import torch.nn as nn
+import torch.nn.functional as F
 from transformers import AutoModel, AutoTokenizer, AutoConfig
+from typing import Optional
 import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+class CodeEncoder(nn.Module):
+    """
+    Encoder model for code/paper embeddings using CodeBERT
+    Wraps AutoModel to provide consistent interface for training
+    """
+
+    def __init__(
+        self,
+        model_name: str = "microsoft/codebert-base",
+        max_length: int = 512,
+        device: Optional[str] = None,
+    ):
+        """
+        Initialize code encoder
+
+        Args:
+            model_name: Hugging Face model identifier
+            max_length: Maximum sequence length
+            device: Device to run on ('cuda', 'cpu', or None for auto)
+        """
+        super().__init__()
+        self.model_name = model_name
+        self.max_length = max_length
+        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+
+        logger.info(f"Loading model: {model_name}")
+        self.model = AutoModel.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+        # Handle tokenizer padding token
+        if self.tokenizer.pad_token is None:
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+
+        # Get embedding dimension
+        config = AutoConfig.from_pretrained(model_name)
+        self.embedding_dim = config.hidden_size
+
+        self.model.to(self.device)
+        logger.info(f"Model loaded. Embedding dim: {self.embedding_dim}")
+
+    def forward(self, input_ids, attention_mask):
+        """
+        Forward pass for training
+
+        Args:
+            input_ids: Token IDs (batch_size, seq_len)
+            attention_mask: Attention mask (batch_size, seq_len)
+
+        Returns:
+            Embeddings (batch_size, embedding_dim)
+        """
+        outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
+
+        # Pool embeddings (mean pooling over sequence length)
+        embeddings = outputs.last_hidden_state
+        # Mask out padding tokens
+        mask_expanded = attention_mask.unsqueeze(-1).expand(embeddings.size()).float()
+        embeddings = (embeddings * mask_expanded).sum(1) / mask_expanded.sum(1).clamp(
+            min=1e-9
+        )
+
+        return embeddings
 
 
 def load_codebert(model_name: str = "microsoft/codebert-base"):
