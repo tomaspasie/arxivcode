@@ -83,11 +83,30 @@ class ContrastiveTrainer:
         self.train_losses = []
         self.val_losses = []
 
+        # Clear GPU cache before training
+        if self.device == "cuda":
+            torch.cuda.empty_cache()
+            torch.cuda.reset_peak_memory_stats()
+            self._log_memory_usage("After initialization")
+        
         logger.info(f"Trainer initialized on device: {self.device}")
         logger.info(f"Learning rate: {learning_rate}, Temperature: {temperature}")
+    
+    def _log_memory_usage(self, stage: str = ""):
+        """Log current GPU memory usage"""
+        if self.device == "cuda":
+            allocated = torch.cuda.memory_allocated(0) / 1e9
+            reserved = torch.cuda.memory_reserved(0) / 1e9
+            max_allocated = torch.cuda.max_memory_allocated(0) / 1e9
+            logger.info(f"GPU Memory {stage}: Allocated={allocated:.2f}GB, Reserved={reserved:.2f}GB, Max={max_allocated:.2f}GB")
 
     def train_epoch(self) -> float:
         """Train for one epoch"""
+        # Clear cache at start of epoch
+        if self.device == "cuda":
+            torch.cuda.empty_cache()
+            self._log_memory_usage("Start of epoch")
+        
         self.paper_encoder.train()
         self.code_encoder.train()
 
@@ -112,10 +131,16 @@ class ContrastiveTrainer:
 
             # Compute loss (uses in-batch negatives)
             loss = self.criterion(paper_embeddings, code_embeddings)
+            
+            # Store loss value before deleting tensors
+            loss_value = loss.item()
 
             # Backward pass
             self.optimizer.zero_grad()
             loss.backward()
+            
+            # Delete intermediate tensors to free memory
+            del paper_embeddings, code_embeddings
 
             # Gradient clipping
             torch.nn.utils.clip_grad_norm_(
@@ -126,14 +151,22 @@ class ContrastiveTrainer:
 
             self.optimizer.step()
 
+            # Delete batch tensors and loss, then clear cache to free memory
+            del paper_input_ids, paper_attention_mask, code_input_ids, code_attention_mask, loss
+            if self.device == "cuda":
+                torch.cuda.empty_cache()
+
             # Update metrics
-            total_loss += loss.item()
+            total_loss += loss_value
             num_batches += 1
             self.global_step += 1
 
-            # Update progress bar
+            # Update progress bar (log memory every 100 batches)
+            if num_batches % 100 == 0 and self.device == "cuda":
+                self._log_memory_usage(f"Batch {num_batches}")
+            
             pbar.set_postfix(
-                {"loss": loss.item(), "avg_loss": total_loss / num_batches}
+                {"loss": loss_value, "avg_loss": total_loss / num_batches}
             )
 
         avg_loss = total_loss / num_batches if num_batches > 0 else 0.0
@@ -168,6 +201,10 @@ class ContrastiveTrainer:
                 num_batches += 1
 
                 pbar.set_postfix({"val_loss": loss.item()})
+                
+                # Clear cache during validation too
+                if self.device == "cuda":
+                    torch.cuda.empty_cache()
 
         avg_loss = total_loss / num_batches if num_batches > 0 else 0.0
         return avg_loss
@@ -283,13 +320,14 @@ class ContrastiveTrainer:
 def train_code_encoder(
     json_path: str = "data/processed/parsed_pairs.json",
     model_name: str = "microsoft/codebert-base",
-    batch_size: int = 8,
+    batch_size: int = 4,
     num_epochs: int = 3,
     learning_rate: float = 2e-5,
     temperature: float = 0.07,
     train_split: float = 0.8,
     checkpoint_dir: str = "checkpoints/code_encoder",
     resume_from: Optional[str] = None,
+    max_length: int = 512,
 ):
     """
     Main training function
@@ -308,6 +346,14 @@ def train_code_encoder(
     logger.info("=" * 60)
     logger.info("Code Encoder Training")
     logger.info("=" * 60)
+    
+    # Clear GPU cache before starting
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.reset_peak_memory_stats()
+        allocated = torch.cuda.memory_allocated(0) / 1e9
+        reserved = torch.cuda.memory_reserved(0) / 1e9
+        logger.info(f"GPU Memory (before loading): Allocated={allocated:.2f}GB, Reserved={reserved:.2f}GB")
 
     # Create DataLoaders
     logger.info("Creating DataLoaders...")
@@ -316,12 +362,21 @@ def train_code_encoder(
         model_name=model_name,
         batch_size=batch_size,
         train_split=train_split,
+        max_length=max_length,
     )
 
     # Load encoders (same model for paper and code)
     logger.info(f"Loading encoders: {model_name}")
     paper_encoder = CodeEncoder(model_name=model_name)
+    if torch.cuda.is_available():
+        allocated = torch.cuda.memory_allocated(0) / 1e9
+        logger.info(f"GPU Memory (after paper encoder): Allocated={allocated:.2f}GB")
+    
     code_encoder = CodeEncoder(model_name=model_name)
+    if torch.cuda.is_available():
+        allocated = torch.cuda.memory_allocated(0) / 1e9
+        reserved = torch.cuda.memory_reserved(0) / 1e9
+        logger.info(f"GPU Memory (after code encoder): Allocated={allocated:.2f}GB, Reserved={reserved:.2f}GB")
 
     # Create trainer
     trainer = ContrastiveTrainer(
@@ -373,8 +428,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--batch_size",
         type=int,
-        default=8,
-        help="Batch size",
+        default=4,
+        help="Batch size (default: 4 for Tesla P4 GPU with 7GB memory, use 2 if OOM)",
+    )
+    parser.add_argument(
+        "--max_length",
+        type=int,
+        default=512,
+        help="Maximum sequence length (default: 512, reduce to 256 if OOM)",
     )
     parser.add_argument(
         "--num_epochs",
@@ -419,6 +480,7 @@ if __name__ == "__main__":
         temperature=args.temperature,
         checkpoint_dir=args.checkpoint_dir,
         resume_from=args.resume_from,
+        max_length=args.max_length,
     )
 
     print("\n" + "=" * 60)

@@ -4,10 +4,16 @@ PyGithub>=2.1.1
 python-dotenv>=1.0.0
 tqdm>=4.66.0
 faiss-cpu>=1.7.4
-sentence-transformers>=2.2.2
-numpy>=1.24.0
+sentence-transformers>=2.2.2,<2.8.0
+numpy>=1.24.0,<2.0.0
 scikit-learn>=1.3.0
 
 # ML/LLM training dependencies
-torch>=2.0.0
-transformers>=4.40.0
+# Note: PyTorch with CUDA 11.8 support (for Tesla P4 GPU with compute capability 6.1)
+# Install PyTorch first with: pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+# Then install other requirements: pip install -r requirements.txt
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+# Transformers version compatible with PyTorch 2.0.1 (newer versions require PyTorch >= 2.1)
+transformers>=4.30.0,<4.40.0

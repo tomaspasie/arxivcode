@@ -705,11 +705,11 @@
         "url": "https://github.com/simplescaling/s1",
         "name": "simplescaling/s1",
         "description": "s1: Simple test-time scaling",
-        "stars": 6610,
+        "stars": 6611,
         "forks": 762,
         "language": "Python",
         "created_at": "2025-02-01T02:38:16+00:00",
-        "updated_at": "2025-12-09T17:58:35+00:00",
+        "updated_at": "2025-12-10T03:16:36+00:00",
         "topics": []
       },
       {
@@ -944,7 +944,7 @@
         "forks": 2804,
         "language": "Python",
         "created_at": "2024-02-20T03:01:34+00:00",
-        "updated_at": "2025-12-09T22:33:41+00:00",
+        "updated_at": "2025-12-10T01:15:01+00:00",
         "topics": []
       }
     ]
@@ -967,7 +967,7 @@
         "forks": 2804,
         "language": "Python",
         "created_at": "2024-02-20T03:01:34+00:00",
-        "updated_at": "2025-12-09T22:33:41+00:00",
+        "updated_at": "2025-12-10T01:15:01+00:00",
         "topics": []
       }
     ]
@@ -990,7 +990,7 @@
         "forks": 2804,
         "language": "Python",
         "created_at": "2024-02-20T03:01:34+00:00",
-        "updated_at": "2025-12-09T22:33:41+00:00",
+        "updated_at": "2025-12-10T01:15:01+00:00",
         "topics": []
       }
     ]
@@ -2644,11 +2644,11 @@
         "url": "https://github.com/facebookresearch/TransCoder",
         "name": "facebookresearch/TransCoder",
         "description": "Public release of the TransCoder research project https://arxiv.org/pdf/2006.03511.pdf",
-        "stars": 1723,
+        "stars": 1724,
         "forks": 263,
         "language": "Python",
         "created_at": "2020-07-10T10:58:19+00:00",
-        "updated_at": "2025-12-07T10:00:40+00:00",
+        "updated_at": "2025-12-10T00:46:39+00:00",
         "topics": []
       }
     ]
@@ -2667,11 +2667,11 @@
         "url": "https://github.com/facebookresearch/TransCoder",
         "name": "facebookresearch/TransCoder",
         "description": "Public release of the TransCoder research project https://arxiv.org/pdf/2006.03511.pdf",
-        "stars": 1723,
+        "stars": 1724,
         "forks": 263,
         "language": "Python",
         "created_at": "2020-07-10T10:58:19+00:00",
-        "updated_at": "2025-12-07T10:00:40+00:00",
+        "updated_at": "2025-12-10T00:46:39+00:00",
         "topics": []
       }
     ]
@@ -2924,11 +2924,11 @@
         "url": "https://github.com/volcengine/verl",
         "name": "volcengine/verl",
         "description": "verl: Volcano Engine Reinforcement Learning for LLMs",
-        "stars": 17341,
-        "forks": 2781,
+        "stars": 17344,
+        "forks": 2782,
         "language": "Python",
         "created_at": "2024-10-31T06:11:15+00:00",
-        "updated_at": "2025-12-09T23:10:09+00:00",
+        "updated_at": "2025-12-10T03:19:07+00:00",
         "topics": []
       },
       {
@@ -2939,7 +2939,7 @@
         "forks": 826,
         "language": "Python",
         "created_at": "2023-07-30T02:20:13+00:00",
-        "updated_at": "2025-12-09T16:47:45+00:00",
+        "updated_at": "2025-12-10T03:10:22+00:00",
         "topics": [
           "transformers",
           "vllm",
@@ -3017,7 +3017,7 @@
         "forks": 644,
         "language": "Python",
         "created_at": "2023-08-21T03:50:04+00:00",
-        "updated_at": "2025-12-09T19:29:35+00:00",
+        "updated_at": "2025-12-10T02:26:35+00:00",
         "topics": [
           "llama",
           "llm",
@@ -3097,11 +3097,11 @@
         "url": "https://github.com/deepseek-ai/DeepSeek-V3",
         "name": "deepseek-ai/DeepSeek-V3",
         "description": null,
-        "stars": 100654,
+        "stars": 100660,
         "forks": 16401,
         "language": "Python",
         "created_at": "2024-12-26T09:52:40+00:00",
-        "updated_at": "2025-12-09T21:18:47+00:00",
+        "updated_at": "2025-12-10T02:43:45+00:00",
         "topics": []
       }
     ]
@@ -3204,7 +3204,7 @@
         "forks": 826,
         "language": "Python",
         "created_at": "2023-07-30T02:20:13+00:00",
-        "updated_at": "2025-12-09T16:47:45+00:00",
+        "updated_at": "2025-12-10T03:10:22+00:00",
         "topics": [
           "transformers",
           "vllm",
@@ -3262,11 +3262,11 @@
         "url": "https://github.com/volcengine/verl",
         "name": "volcengine/verl",
         "description": "verl: Volcano Engine Reinforcement Learning for LLMs",
-        "stars": 17341,
-        "forks": 2781,
+        "stars": 17344,
+        "forks": 2782,
         "language": "Python",
         "created_at": "2024-10-31T06:11:15+00:00",
-        "updated_at": "2025-12-09T23:10:09+00:00",
+        "updated_at": "2025-12-10T03:19:07+00:00",
         "topics": []
       }
     ]
@@ -3626,11 +3626,11 @@
         "url": "https://github.com/allenai/RL4LMs",
         "name": "allenai/RL4LMs",
         "description": "A modular RL library to fine-tune language models to human preferences",
-        "stars": 2371,
+        "stars": 2372,
         "forks": 203,
         "language": "Python",
         "created_at": "2022-08-18T05:29:16+00:00",
-        "updated_at": "2025-12-09T02:10:42+00:00",
+        "updated_at": "2025-12-10T03:04:29+00:00",
         "topics": [
           "language-modeling",
           "nlp",
@@ -3659,11 +3659,11 @@
         "url": "https://github.com/nyu-mll/quality",
         "name": "nyu-mll/quality",
         "description": null,
-        "stars": 143,
+        "stars": 144,
         "forks": 10,
         "language": "Python",
         "created_at": "2021-12-13T05:31:26+00:00",
-        "updated_at": "2025-11-27T06:27:32+00:00",
+        "updated_at": "2025-12-10T02:45:49+00:00",
         "topics": []
       },
       {
@@ -3802,11 +3802,11 @@
         "url": "https://github.com/nyu-mll/quality",
         "name": "nyu-mll/quality",
         "description": null,
-        "stars": 143,
+        "stars": 144,
         "forks": 10,
         "language": "Python",
         "created_at": "2021-12-13T05:31:26+00:00",
-        "updated_at": "2025-11-27T06:27:32+00:00",
+        "updated_at": "2025-12-10T02:45:49+00:00",
         "topics": []
       },
       {
@@ -3939,11 +3939,11 @@
         "url": "https://github.com/google-deepmind/narrativeqa",
         "name": "google-deepmind/narrativeqa",
         "description": "This repository contains the NarrativeQA dataset. It includes the list of documents with Wikipedia summaries, links to full stories, and questions and answers.",
-        "stars": 494,
+        "stars": 495,
         "forks": 67,
         "language": "Shell",
         "created_at": "2017-12-20T14:39:57+00:00",
-        "updated_at": "2025-12-09T20:36:48+00:00",
+        "updated_at": "2025-12-10T02:45:41+00:00",
         "topics": []
       }
     ]
@@ -4329,7 +4329,7 @@
         "forks": 2715,
         "language": "Python",
         "created_at": "2019-07-24T10:53:51+00:00",
-        "updated_at": "2025-12-09T21:40:23+00:00",
+        "updated_at": "2025-12-10T03:08:17+00:00",
         "topics": []
       }
     ]
@@ -4348,11 +4348,11 @@
         "url": "https://github.com/openai/gpt-3",
         "name": "openai/gpt-3",
         "description": "GPT-3: Language Models are Few-Shot Learners",
-        "stars": 15775,
+        "stars": 15774,
         "forks": 2290,
         "language": null,
         "created_at": "2020-05-18T08:03:50+00:00",
-        "updated_at": "2025-12-09T13:08:51+00:00",
+        "updated_at": "2025-12-10T01:17:06+00:00",
         "topics": []
       }
     ]
@@ -4417,11 +4417,11 @@
         "url": "https://github.com/mistralai/mistral-inference",
         "name": "mistralai/mistral-inference",
         "description": "Official inference library for Mistral models",
-        "stars": 10574,
+        "stars": 10577,
         "forks": 994,
         "language": "Jupyter Notebook",
         "created_at": "2023-09-27T13:05:24+00:00",
-        "updated_at": "2025-12-09T23:10:08+00:00",
+        "updated_at": "2025-12-10T02:37:52+00:00",
         "topics": [
           "llm",
           "llm-inference",
@@ -4553,7 +4553,7 @@
         "name": "artidoro/qlora",
         "description": "QLoRA: Efficient Finetuning of Quantized LLMs",
         "stars": 10782,
-        "forks": 865,
+        "forks": 866,
         "language": "Jupyter Notebook",
         "created_at": "2023-05-11T09:30:23+00:00",
         "updated_at": "2025-12-07T03:13:19+00:00",
@@ -4749,11 +4749,11 @@
         "url": "https://github.com/stanford-futuredata/ColBERT",
         "name": "stanford-futuredata/ColBERT",
         "description": "ColBERT: state-of-the-art neural search (SIGIR'20, TACL'21, NeurIPS'21, NAACL'22, CIKM'22, ACL'23, EMNLP'23)",
-        "stars": 3722,
+        "stars": 3724,
         "forks": 462,
         "language": "Python",
         "created_at": "2020-05-25T18:01:18+00:00",
-        "updated_at": "2025-12-08T13:31:11+00:00",
+        "updated_at": "2025-12-10T03:15:25+00:00",
         "topics": []
       }
     ]
@@ -4815,11 +4815,11 @@
         "url": "https://github.com/AkariAsai/self-rag",
         "name": "AkariAsai/self-rag",
         "description": "This includes the original implementation of SELF-RAG: Learning to Retrieve, Generate and Critique through self-reflection by Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, and Hannaneh Hajishirzi.",
-        "stars": 2261,
+        "stars": 2262,
         "forks": 214,
         "language": "Python",
         "created_at": "2023-10-10T20:12:05+00:00",
-        "updated_at": "2025-12-07T07:42:18+00:00",
+        "updated_at": "2025-12-10T02:10:34+00:00",
         "topics": []
       }
     ]
@@ -4888,7 +4888,7 @@
         "forks": 3859,
         "language": "Jupyter Notebook",
         "created_at": "2020-12-16T11:24:42+00:00",
-        "updated_at": "2025-12-09T23:10:44+00:00",
+        "updated_at": "2025-12-10T03:25:44+00:00",
         "topics": [
           "deep-learning",
           "machine-learning"
@@ -5028,11 +5028,11 @@
         "url": "https://github.com/haotian-liu/LLaVA",
         "name": "haotian-liu/LLaVA",
         "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
-        "stars": 24138,
+        "stars": 24140,
         "forks": 2670,
         "language": "Python",
         "created_at": "2023-04-17T16:13:11+00:00",
-        "updated_at": "2025-12-09T14:07:35+00:00",
+        "updated_at": "2025-12-10T03:10:29+00:00",
         "topics": [
           "gpt-4",
           "chatbot",
@@ -5065,11 +5065,11 @@
         "url": "https://github.com/haotian-liu/LLaVA",
         "name": "haotian-liu/LLaVA",
         "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
-        "stars": 24138,
+        "stars": 24140,
         "forks": 2670,
         "language": "Python",
         "created_at": "2023-04-17T16:13:11+00:00",
-        "updated_at": "2025-12-09T14:07:35+00:00",
+        "updated_at": "2025-12-10T03:10:29+00:00",
         "topics": [
           "gpt-4",
           "chatbot",
@@ -5137,11 +5137,11 @@
         "url": "https://github.com/google-research/vision_transformer",
         "name": "google-research/vision_transformer",
         "description": null,
-        "stars": 12100,
+        "stars": 12102,
         "forks": 1428,
         "language": "Jupyter Notebook",
         "created_at": "2020-10-21T12:35:02+00:00",
-        "updated_at": "2025-12-09T19:53:57+00:00",
+        "updated_at": "2025-12-10T01:29:41+00:00",
         "topics": []
       }
     ]
@@ -5204,11 +5204,11 @@
         "url": "https://github.com/hojonathanho/diffusion",
         "name": "hojonathanho/diffusion",
         "description": "Denoising Diffusion Probabilistic Models",
-        "stars": 4905,
-        "forks": 460,
+        "stars": 4906,
+        "forks": 461,
         "language": "Python",
         "created_at": "2020-06-19T00:47:02+00:00",
-        "updated_at": "2025-12-09T14:12:04+00:00",
+        "updated_at": "2025-12-10T02:44:10+00:00",
         "topics": []
       }
     ]
@@ -5227,11 +5227,11 @@
         "url": "https://github.com/CompVis/latent-diffusion",
         "name": "CompVis/latent-diffusion",
         "description": "High-Resolution Image Synthesis with Latent Diffusion Models",
-        "stars": 13645,
+        "stars": 13646,
         "forks": 1702,
         "language": "Jupyter Notebook",
         "created_at": "2021-12-20T16:56:18+00:00",
-        "updated_at": "2025-12-09T19:52:59+00:00",
+        "updated_at": "2025-12-10T03:21:41+00:00",
         "topics": []
       }
     ]
@@ -5273,11 +5273,11 @@
         "url": "https://github.com/ermongroup/ddim",
         "name": "ermongroup/ddim",
         "description": "Denoising Diffusion Implicit Models",
-        "stars": 1750,
+        "stars": 1752,
         "forks": 229,
         "language": "Python",
         "created_at": "2020-10-05T23:11:51+00:00",
-        "updated_at": "2025-12-09T05:46:41+00:00",
+        "updated_at": "2025-12-10T03:13:23+00:00",
         "topics": []
       }
     ]
@@ -5349,11 +5349,11 @@
         "url": "https://github.com/lllyasviel/ControlNet",
         "name": "lllyasviel/ControlNet",
         "description": "Let us control diffusion models!",
-        "stars": 33414,
+        "stars": 33415,
         "forks": 2992,
         "language": "Python",
         "created_at": "2023-02-01T02:43:30+00:00",
-        "updated_at": "2025-12-09T22:53:28+00:00",
+        "updated_at": "2025-12-10T03:16:16+00:00",
         "topics": []
       }
     ]
@@ -5395,11 +5395,11 @@
         "url": "https://github.com/state-spaces/mamba",
         "name": "state-spaces/mamba",
         "description": "Mamba SSM architecture",
-        "stars": 16661,
+        "stars": 16662,
         "forks": 1529,
         "language": "Python",
         "created_at": "2023-12-01T01:17:39+00:00",
-        "updated_at": "2025-12-09T19:45:08+00:00",
+        "updated_at": "2025-12-10T01:38:45+00:00",
         "topics": []
       }
     ]
@@ -5445,11 +5445,11 @@
         "url": "https://github.com/Dao-AILab/flash-attention",
         "name": "Dao-AILab/flash-attention",
         "description": "Fast and memory-efficient exact attention",
-        "stars": 20991,
-        "forks": 2198,
+        "stars": 20993,
+        "forks": 2199,
         "language": "Python",
         "created_at": "2022-05-19T21:22:06+00:00",
-        "updated_at": "2025-12-09T21:34:20+00:00",
+        "updated_at": "2025-12-10T00:38:49+00:00",
         "topics": []
       }
     ]
@@ -5468,11 +5468,11 @@
         "url": "https://github.com/Dao-AILab/flash-attention",
         "name": "Dao-AILab/flash-attention",
         "description": "Fast and memory-efficient exact attention",
-        "stars": 20991,
-        "forks": 2198,
+        "stars": 20993,
+        "forks": 2199,
         "language": "Python",
         "created_at": "2022-05-19T21:22:06+00:00",
-        "updated_at": "2025-12-09T21:34:20+00:00",
+        "updated_at": "2025-12-10T00:38:49+00:00",
         "topics": []
       }
     ]
@@ -5577,11 +5577,11 @@
         "url": "https://github.com/langchain-ai/langchain",
         "name": "langchain-ai/langchain",
         "description": "🦜🔗 The platform for reliable agents.",
-        "stars": 121502,
+        "stars": 121514,
         "forks": 20041,
         "language": "Python",
         "created_at": "2022-10-17T02:58:36+00:00",
-        "updated_at": "2025-12-09T23:27:13+00:00",
+        "updated_at": "2025-12-10T03:17:10+00:00",
         "topics": [
           "ai",
           "anthropic",
@@ -5649,11 +5649,11 @@
         "url": "https://github.com/noahshinn/reflexion",
         "name": "noahshinn/reflexion",
         "description": "[NeurIPS 2023] Reflexion: Language Agents with Verbal Reinforcement Learning",
-        "stars": 2980,
+        "stars": 2981,
         "forks": 288,
         "language": "Python",
         "created_at": "2023-03-22T06:38:53+00:00",
-        "updated_at": "2025-12-09T15:12:08+00:00",
+        "updated_at": "2025-12-10T03:09:22+00:00",
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -5708,11 +5708,11 @@
         "url": "https://github.com/FoundationAgents/MetaGPT",
         "name": "FoundationAgents/MetaGPT",
         "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-        "stars": 60306,
-        "forks": 7411,
+        "stars": 60328,
+        "forks": 7416,
         "language": "Python",
         "created_at": "2023-06-30T09:04:55+00:00",
-        "updated_at": "2025-12-09T23:20:31+00:00",
+        "updated_at": "2025-12-10T03:22:02+00:00",
         "topics": [
           "agent",
           "gpt",
@@ -5737,11 +5737,11 @@
         "url": "https://github.com/microsoft/JARVIS",
         "name": "microsoft/JARVIS",
         "description": "JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf",
-        "stars": 24487,
+        "stars": 24488,
         "forks": 2059,
         "language": "Python",
         "created_at": "2023-03-30T02:57:12+00:00",
-        "updated_at": "2025-12-09T20:20:38+00:00",
+        "updated_at": "2025-12-10T00:51:42+00:00",
         "topics": [
           "deep-learning",
           "platform",
@@ -5791,11 +5791,11 @@
         "url": "https://github.com/openai/whisper",
         "name": "openai/whisper",
         "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
-        "stars": 91784,
+        "stars": 91793,
         "forks": 11506,
         "language": "Python",
         "created_at": "2022-09-16T20:02:54+00:00",
-        "updated_at": "2025-12-09T23:07:07+00:00",
+        "updated_at": "2025-12-10T02:22:53+00:00",
         "topics": []
       }
     ]
@@ -6009,11 +6009,11 @@
         "url": "https://github.com/openai/evals",
         "name": "openai/evals",
         "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
-        "stars": 17405,
-        "forks": 2847,
+        "stars": 17406,
+        "forks": 2848,
         "language": "Python",
         "created_at": "2023-01-23T20:51:04+00:00",
-        "updated_at": "2025-12-09T13:50:25+00:00",
+        "updated_at": "2025-12-10T01:28:20+00:00",
         "topics": []
       }
     ]
@@ -6032,11 +6032,11 @@
         "url": "https://github.com/tatsu-lab/alpaca_eval",
         "name": "tatsu-lab/alpaca_eval",
         "description": "An automatic evaluator for instruction-following language models. Human-validated, high-quality, cheap, and fast.",
-        "stars": 1922,
+        "stars": 1924,
         "forks": 294,
         "language": "Jupyter Notebook",
         "created_at": "2023-05-25T09:35:28+00:00",
-        "updated_at": "2025-12-09T23:33:55+00:00",
+        "updated_at": "2025-12-10T03:04:52+00:00",
         "topics": [
           "deep-learning",
           "evaluation",
@@ -6193,11 +6193,11 @@
         "url": "https://github.com/dmlc/dgl",
         "name": "dmlc/dgl",
         "description": "Python package built to ease deep learning on graph, on top of existing DL frameworks.",
-        "stars": 14164,
+        "stars": 14165,
         "forks": 3056,
         "language": "Python",
         "created_at": "2018-04-20T14:49:09+00:00",
-        "updated_at": "2025-12-09T11:22:20+00:00",
+        "updated_at": "2025-12-09T23:50:11+00:00",
         "topics": [
           "deep-learning",
           "graph-neural-networks"
@@ -6294,11 +6294,11 @@
         "url": "https://github.com/google-research/google-research",
         "name": "google-research/google-research",
         "description": "Google Research",
-        "stars": 36868,
+        "stars": 36869,
         "forks": 8267,
         "language": "Jupyter Notebook",
         "created_at": "2018-10-04T18:42:48+00:00",
-        "updated_at": "2025-12-09T22:47:56+00:00",
+        "updated_at": "2025-12-10T03:17:21+00:00",
         "topics": [
           "machine-learning",
           "ai",
@@ -6482,11 +6482,11 @@
         "url": "https://github.com/tensorflow/tensor2tensor",
         "name": "tensorflow/tensor2tensor",
         "description": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
-        "stars": 16800,
+        "stars": 16801,
         "forks": 3698,
         "language": "Python",
         "created_at": "2017-06-15T16:57:39+00:00",
-        "updated_at": "2025-12-09T22:58:06+00:00",
+        "updated_at": "2025-12-10T03:32:49+00:00",
         "topics": [
           "machine-learning",
           "machine-translation",
@@ -6511,11 +6511,11 @@
         "url": "https://github.com/fastai/fastai",
         "name": "fastai/fastai",
         "description": "The fastai deep learning library",
-        "stars": 27654,
+        "stars": 27653,
         "forks": 7666,
         "language": "Jupyter Notebook",
         "created_at": "2017-09-09T17:43:36+00:00",
-        "updated_at": "2025-12-09T17:00:15+00:00",
+        "updated_at": "2025-12-10T01:57:28+00:00",
         "topics": [
           "deep-learning",
           "machine-learning",
@@ -6547,7 +6547,7 @@
         "forks": 4147,
         "language": "C++",
         "created_at": "2017-02-07T16:07:05+00:00",
-        "updated_at": "2025-12-09T23:30:08+00:00",
+        "updated_at": "2025-12-10T01:15:59+00:00",
         "topics": []
       }
     ]
@@ -6660,11 +6660,11 @@
         "url": "https://github.com/Megvii-BaseDetection/YOLOX",
         "name": "Megvii-BaseDetection/YOLOX",
         "description": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/",
-        "stars": 10222,
+        "stars": 10223,
         "forks": 2419,
         "language": "Python",
         "created_at": "2021-07-17T02:01:45+00:00",
-        "updated_at": "2025-12-09T08:45:21+00:00",
+        "updated_at": "2025-12-10T03:10:07+00:00",
         "topics": [
           "yolox",
           "yolov3",
@@ -6695,11 +6695,11 @@
         "url": "https://github.com/google-research/vision_transformer",
         "name": "google-research/vision_transformer",
         "description": null,
-        "stars": 12100,
+        "stars": 12102,
         "forks": 1428,
         "language": "Jupyter Notebook",
         "created_at": "2020-10-21T12:35:02+00:00",
-        "updated_at": "2025-12-09T19:53:57+00:00",
+        "updated_at": "2025-12-10T01:29:41+00:00",
         "topics": []
       }
     ]
@@ -6718,11 +6718,11 @@
         "url": "https://github.com/microsoft/Swin-Transformer",
         "name": "microsoft/Swin-Transformer",
         "description": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\".",
-        "stars": 15513,
-        "forks": 2200,
+        "stars": 15517,
+        "forks": 2202,
         "language": "Python",
         "created_at": "2021-03-25T12:42:36+00:00",
-        "updated_at": "2025-12-09T12:25:07+00:00",
+        "updated_at": "2025-12-10T02:28:18+00:00",
         "topics": [
           "swin-transformer",
           "image-classification",
@@ -6773,11 +6773,11 @@
         "url": "https://github.com/facebookresearch/segment-anything",
         "name": "facebookresearch/segment-anything",
         "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
-        "stars": 52835,
+        "stars": 52837,
         "forks": 6170,
         "language": "Jupyter Notebook",
         "created_at": "2023-03-23T17:03:03+00:00",
-        "updated_at": "2025-12-09T21:11:54+00:00",
+        "updated_at": "2025-12-10T02:17:01+00:00",
         "topics": []
       }
     ]
@@ -6796,11 +6796,11 @@
         "url": "https://github.com/bowang-lab/MedSAM",
         "name": "bowang-lab/MedSAM",
         "description": "Segment Anything in Medical Images",
-        "stars": 3973,
-        "forks": 545,
+        "stars": 3974,
+        "forks": 546,
         "language": "Jupyter Notebook",
         "created_at": "2023-04-22T19:57:25+00:00",
-        "updated_at": "2025-12-09T23:38:39+00:00",
+        "updated_at": "2025-12-10T02:17:01+00:00",
         "topics": []
       }
     ]
@@ -6819,11 +6819,11 @@
         "url": "https://github.com/pytorch/pytorch",
         "name": "pytorch/pytorch",
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-        "stars": 95721,
-        "forks": 26155,
+        "stars": 95727,
+        "forks": 26159,
         "language": "Python",
         "created_at": "2016-08-13T05:26:41+00:00",
-        "updated_at": "2025-12-09T23:32:34+00:00",
+        "updated_at": "2025-12-10T03:21:16+00:00",
         "topics": [
           "neural-network",
           "autograd",
@@ -6851,11 +6851,11 @@
         "url": "https://github.com/pytorch/pytorch",
         "name": "pytorch/pytorch",
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-        "stars": 95721,
-        "forks": 26155,
+        "stars": 95727,
+        "forks": 26159,
         "language": "Python",
         "created_at": "2016-08-13T05:26:41+00:00",
-        "updated_at": "2025-12-09T23:32:34+00:00",
+        "updated_at": "2025-12-10T03:21:16+00:00",
         "topics": [
           "neural-network",
           "autograd",
@@ -6910,11 +6910,11 @@
         "url": "https://github.com/deepspeedai/DeepSpeed",
         "name": "deepspeedai/DeepSpeed",
         "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
-        "stars": 40955,
-        "forks": 4656,
+        "stars": 40956,
+        "forks": 4657,
         "language": "Python",
         "created_at": "2020-01-23T18:35:18+00:00",
-        "updated_at": "2025-12-09T21:52:31+00:00",
+        "updated_at": "2025-12-10T02:14:27+00:00",
         "topics": [
           "deep-learning",
           "pytorch",
@@ -6947,11 +6947,11 @@
         "url": "https://github.com/pytorch/pytorch",
         "name": "pytorch/pytorch",
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-        "stars": 95721,
-        "forks": 26155,
+        "stars": 95727,
+        "forks": 26159,
         "language": "Python",
         "created_at": "2016-08-13T05:26:41+00:00",
-        "updated_at": "2025-12-09T23:32:34+00:00",
+        "updated_at": "2025-12-10T03:21:16+00:00",
         "topics": [
           "neural-network",
           "autograd",
@@ -7002,11 +7002,11 @@
         "url": "https://github.com/facebookresearch/fastText",
         "name": "facebookresearch/fastText",
         "description": "Library for fast text representation and classification.",
-        "stars": 26444,
+        "stars": 26445,
         "forks": 4815,
         "language": "HTML",
         "created_at": "2016-07-16T13:38:42+00:00",
-        "updated_at": "2025-12-09T22:18:05+00:00",
+        "updated_at": "2025-12-10T02:17:18+00:00",
         "topics": []
       }
     ]
@@ -7176,11 +7176,11 @@
         "url": "https://github.com/google-research/google-research",
         "name": "google-research/google-research",
         "description": "Google Research",
-        "stars": 36868,
+        "stars": 36869,
         "forks": 8267,
         "language": "Jupyter Notebook",
         "created_at": "2018-10-04T18:42:48+00:00",
-        "updated_at": "2025-12-09T22:47:56+00:00",
+        "updated_at": "2025-12-10T03:17:21+00:00",
         "topics": [
           "machine-learning",
           "ai",
@@ -7227,7 +7227,7 @@
         "name": "bitsandbytes-foundation/bitsandbytes",
         "description": "Accessible large language models via k-bit quantization for PyTorch.",
         "stars": 7804,
-        "forks": 797,
+        "forks": 798,
         "language": "Python",
         "created_at": "2021-06-04T00:10:34+00:00",
         "updated_at": "2025-12-09T18:33:06+00:00",
@@ -7309,11 +7309,11 @@
         "url": "https://github.com/huggingface/transformers",
         "name": "huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-        "stars": 153661,
+        "stars": 153664,
         "forks": 31358,
         "language": "Python",
         "created_at": "2018-10-29T13:56:00+00:00",
-        "updated_at": "2025-12-09T23:22:22+00:00",
+        "updated_at": "2025-12-10T03:34:07+00:00",
         "topics": [
           "nlp",
           "natural-language-processing",
@@ -7596,11 +7596,11 @@
         "url": "https://github.com/tensorflow/tensorflow",
         "name": "tensorflow/tensorflow",
         "description": "An Open Source Machine Learning Framework for Everyone",
-        "stars": 192723,
+        "stars": 192725,
         "forks": 75036,
         "language": "C++",
         "created_at": "2015-11-07T01:19:20+00:00",
-        "updated_at": "2025-12-09T23:35:34+00:00",
+        "updated_at": "2025-12-10T03:12:49+00:00",
         "topics": [
           "tensorflow",
           "machine-learning",
@@ -7628,11 +7628,11 @@
         "url": "https://github.com/pytorch/pytorch",
         "name": "pytorch/pytorch",
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-        "stars": 95721,
-        "forks": 26155,
+        "stars": 95727,
+        "forks": 26159,
         "language": "Python",
         "created_at": "2016-08-13T05:26:41+00:00",
-        "updated_at": "2025-12-09T23:40:54+00:00",
+        "updated_at": "2025-12-10T03:21:16+00:00",
         "topics": [
           "neural-network",
           "autograd",
@@ -7664,7 +7664,7 @@
         "forks": 3294,
         "language": "Python",
         "created_at": "2018-10-25T21:25:02+00:00",
-        "updated_at": "2025-12-09T21:26:25+00:00",
+        "updated_at": "2025-12-10T01:50:23+00:00",
         "topics": [
           "jax"
         ]
@@ -7722,11 +7722,11 @@
         "url": "https://github.com/rbgirshick/py-faster-rcnn",
         "name": "rbgirshick/py-faster-rcnn",
         "description": "Faster R-CNN (Python implementation) -- see https://github.com/ShaoqingRen/faster_rcnn for the official MATLAB version",
-        "stars": 8277,
+        "stars": 8278,
         "forks": 4104,
         "language": "Python",
         "created_at": "2015-09-25T21:04:08+00:00",
-        "updated_at": "2025-12-08T01:51:18+00:00",
+        "updated_at": "2025-12-10T02:16:59+00:00",
         "topics": []
       }
     ]
@@ -7797,11 +7797,11 @@
         "url": "https://github.com/IDEA-Research/GroundingDINO",
         "name": "IDEA-Research/GroundingDINO",
         "description": "[ECCV 2024] Official implementation of the paper \"Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection\"",
-        "stars": 9398,
+        "stars": 9401,
         "forks": 976,
         "language": "Python",
         "created_at": "2023-03-09T06:14:41+00:00",
-        "updated_at": "2025-12-09T20:35:56+00:00",
+        "updated_at": "2025-12-10T02:33:13+00:00",
         "topics": [
           "object-detection",
           "open-world",
@@ -7880,11 +7880,11 @@
         "url": "https://github.com/google-research/google-research",
         "name": "google-research/google-research",
         "description": "Google Research",
-        "stars": 36868,
+        "stars": 36869,
         "forks": 8267,
         "language": "Jupyter Notebook",
         "created_at": "2018-10-04T18:42:48+00:00",
-        "updated_at": "2025-12-09T22:47:56+00:00",
+        "updated_at": "2025-12-10T03:17:21+00:00",
         "topics": [
           "machine-learning",
           "ai",

@@ -61,7 +61,7 @@
   },
   {
     "input": "How popular is the MetaGPT: Meta Programming for Multi-Agent Systems implementation?",
-    "output": "The FoundationAgents/MetaGPT repository has 60,306 stars and 7,411 forks on GitHub."
+    "output": "The FoundationAgents/MetaGPT repository has 60,328 stars and 7,416 forks on GitHub."
   },
   {
     "input": "What does the dmlc/dgl repository do?",
@@ -81,7 +81,7 @@
   },
   {
     "input": "Summarize the AlpacaEval: An Automatic Evaluator for Instruction-following paper.",
-    "output": "AlpacaEval: An Automatic Evaluator for Instruction-following is a 2023 paper in Computation and Language (Natural Language Processing). The implementation is available at tatsu-lab/alpaca_eval which an automatic evaluator for instruction-following language models. human-validated, high-quality, cheap, and fast. It is written in Jupyter Notebook. The repository has 1,922 stars, indicating high community interest."
+    "output": "AlpacaEval: An Automatic Evaluator for Instruction-following is a 2023 paper in Computation and Language (Natural Language Processing). The implementation is available at tatsu-lab/alpaca_eval which an automatic evaluator for instruction-following language models. human-validated, high-quality, cheap, and fast. It is written in Jupyter Notebook. The repository has 1,924 stars, indicating high community interest."
   },
   {
     "input": "When was the ColBERT: Efficient Passage Search via Contextualized Late Interaction paper published?",
@@ -89,7 +89,7 @@
   },
   {
     "input": "How popular is the Grounding DINO: Marrying DINO with Grounded Pre-Training implementation?",
-    "output": "The IDEA-Research/GroundingDINO repository has 9,398 stars and 976 forks on GitHub."
+    "output": "The IDEA-Research/GroundingDINO repository has 9,401 stars and 976 forks on GitHub."
   },
   {
     "input": "What programming language is arXiv Query: search_query=&id_list=2503.00735&start=0&max_results=10 implemented in?",
@@ -141,11 +141,11 @@
   },
   {
     "input": "What is Universal Language Model Fine-tuning for Text Classification about?",
-    "output": "Universal Language Model Fine-tuning for Text Classification is a 2018 paper in Computation and Language (Natural Language Processing). The implementation is available at fastai/fastai which the fastai deep learning library It is written in Jupyter Notebook. The repository has 27,654 stars, indicating high community interest."
+    "output": "Universal Language Model Fine-tuning for Text Classification is a 2018 paper in Computation and Language (Natural Language Processing). The implementation is available at fastai/fastai which the fastai deep learning library It is written in Jupyter Notebook. The repository has 27,653 stars, indicating high community interest."
   },
   {
     "input": "How popular is the ViT: An Image is Worth 16x16 Words implementation?",
-    "output": "The google-research/vision_transformer repository has 12,100 stars and 1,428 forks on GitHub."
+    "output": "The google-research/vision_transformer repository has 12,102 stars and 1,428 forks on GitHub."
   },
   {
     "input": "When was the arXiv Query: search_query=&id_list=2210.17323&start=0&max_results=10 paper published?",
@@ -381,7 +381,7 @@
   },
   {
     "input": "What is Denoising Diffusion Probabilistic Models about?",
-    "output": "Denoising Diffusion Probabilistic Models is a 2020 paper in Machine Learning. The implementation is available at hojonathanho/diffusion which denoising diffusion probabilistic models It is written in Python. The repository has 4,905 stars, indicating high community interest."
+    "output": "Denoising Diffusion Probabilistic Models is a 2020 paper in Machine Learning. The implementation is available at hojonathanho/diffusion which denoising diffusion probabilistic models It is written in Python. The repository has 4,906 stars, indicating high community interest."
   },
   {
     "input": "What is the GitHub repository for arXiv Query: search_query=&id_list=2505.22954&start=0&max_results=10?",
@@ -393,7 +393,7 @@
   },
   {
     "input": "How many stars does the ZeRO: Memory Optimizations Toward Training Trillion Parameter Models repository have?",
-    "output": "The deepspeedai/DeepSpeed repository has 40,955 stars and 4,656 forks on GitHub."
+    "output": "The deepspeedai/DeepSpeed repository has 40,956 stars and 4,657 forks on GitHub."
   },
   {
     "input": "What year was arXiv Query: search_query=&id_list=2503.00735&start=0&max_results=10 released?",
@@ -589,7 +589,7 @@
   },
   {
     "input": "Give me an overview of Decoupled Weight Decay Regularization.",
-    "output": "Decoupled Weight Decay Regularization is a 2017 paper in Machine Learning. The implementation is available at pytorch/pytorch which tensors and dynamic neural networks in python with strong gpu acceleration It is written in Python. The repository has 95,721 stars, indicating high community interest."
+    "output": "Decoupled Weight Decay Regularization is a 2017 paper in Machine Learning. The implementation is available at pytorch/pytorch which tensors and dynamic neural networks in python with strong gpu acceleration It is written in Python. The repository has 95,727 stars, indicating high community interest."
   },
   {
     "input": "What is the GitHub repository for arXiv Query: search_query=&id_list=2302.14233&start=0&max_results=10?",
@@ -845,7 +845,7 @@
   },
   {
     "input": "Explain the LLaVA: Large Language and Vision Assistant paper.",
-    "output": "LLaVA: Large Language and Vision Assistant is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at haotian-liu/LLaVA which [neurips'23 oral] visual instruction tuning (llava) built towards gpt-4v level capabilities and beyond. It is written in Python. The repository has 24,138 stars, indicating high community interest."
+    "output": "LLaVA: Large Language and Vision Assistant is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at haotian-liu/LLaVA which [neurips'23 oral] visual instruction tuning (llava) built towards gpt-4v level capabilities and beyond. It is written in Python. The repository has 24,140 stars, indicating high community interest."
   },
   {
     "input": "Give me an overview of arXiv Query: search_query=&id_list=2102.01192&start=0&max_results=10.",
@@ -881,7 +881,7 @@
   },
   {
     "input": "What is arXiv Query: search_query=&id_list=2305.18290&start=0&max_results=10 about?",
-    "output": "arXiv Query: search_query=&id_list=2305.18290&start=0&max_results=10 is a 2023 paper in Computation and Language (Natural Language Processing). The implementation is available at volcengine/verl which verl: volcano engine reinforcement learning for llms It is written in Python. The repository has 17,341 stars, indicating high community interest."
+    "output": "arXiv Query: search_query=&id_list=2305.18290&start=0&max_results=10 is a 2023 paper in Computation and Language (Natural Language Processing). The implementation is available at volcengine/verl which verl: volcano engine reinforcement learning for llms It is written in Python. The repository has 17,344 stars, indicating high community interest."
   },
   {
     "input": "What category is the arXiv Query: search_query=&id_list=2012.06009&start=0&max_results=10 paper in?",
@@ -949,7 +949,7 @@
   },
   {
     "input": "Give me an overview of AlpacaEval: An Automatic Evaluator for Instruction-following.",
-    "output": "AlpacaEval: An Automatic Evaluator for Instruction-following is a 2023 paper in Computation and Language (Natural Language Processing). The implementation is available at tatsu-lab/alpaca_eval which an automatic evaluator for instruction-following language models. human-validated, high-quality, cheap, and fast. It is written in Jupyter Notebook. The repository has 1,922 stars, indicating high community interest."
+    "output": "AlpacaEval: An Automatic Evaluator for Instruction-following is a 2023 paper in Computation and Language (Natural Language Processing). The implementation is available at tatsu-lab/alpaca_eval which an automatic evaluator for instruction-following language models. human-validated, high-quality, cheap, and fast. It is written in Jupyter Notebook. The repository has 1,924 stars, indicating high community interest."
   },
   {
     "input": "What programming language is arXiv Query: search_query=&id_list=2012.00413&start=0&max_results=10 implemented in?",
@@ -1045,7 +1045,7 @@
   },
   {
     "input": "Give me an overview of arXiv Query: search_query=&id_list=2409.19256&start=0&max_results=10.",
-    "output": "arXiv Query: search_query=&id_list=2409.19256&start=0&max_results=10 is a 2024 paper in Machine Learning. The implementation is available at volcengine/verl which verl: volcano engine reinforcement learning for llms It is written in Python. The repository has 17,341 stars, indicating high community interest."
+    "output": "arXiv Query: search_query=&id_list=2409.19256&start=0&max_results=10 is a 2024 paper in Machine Learning. The implementation is available at volcengine/verl which verl: volcano engine reinforcement learning for llms It is written in Python. The repository has 17,344 stars, indicating high community interest."
   },
   {
     "input": "How popular is the Prefix-Tuning: Optimizing Continuous Prompts for Generation implementation?",
@@ -1085,7 +1085,7 @@
   },
   {
     "input": "Give me an overview of Enriching Word Vectors with Subword Information.",
-    "output": "Enriching Word Vectors with Subword Information is a 2016 paper in Computation and Language (Natural Language Processing). The implementation is available at facebookresearch/fastText which library for fast text representation and classification. It is written in HTML. The repository has 26,444 stars, indicating high community interest."
+    "output": "Enriching Word Vectors with Subword Information is a 2016 paper in Computation and Language (Natural Language Processing). The implementation is available at facebookresearch/fastText which library for fast text representation and classification. It is written in HTML. The repository has 26,445 stars, indicating high community interest."
   },
   {
     "input": "What is Question and Answer Test-Train Overlap in Open-Domain QA Datasets about?",
@@ -1105,7 +1105,7 @@
   },
   {
     "input": "What is High-Resolution Image Synthesis with Latent Diffusion Models about?",
-    "output": "High-Resolution Image Synthesis with Latent Diffusion Models is a 2021 paper in Computer Vision and Pattern Recognition. The implementation is available at CompVis/latent-diffusion which high-resolution image synthesis with latent diffusion models It is written in Jupyter Notebook. The repository has 13,645 stars, indicating high community interest."
+    "output": "High-Resolution Image Synthesis with Latent Diffusion Models is a 2021 paper in Computer Vision and Pattern Recognition. The implementation is available at CompVis/latent-diffusion which high-resolution image synthesis with latent diffusion models It is written in Jupyter Notebook. The repository has 13,646 stars, indicating high community interest."
   },
   {
     "input": "What is the GitHub repository for ReAct: Synergizing Reasoning and Acting in Language Models?",
@@ -1149,7 +1149,7 @@
   },
   {
     "input": "How many stars does the Reflexion: Language Agents with Verbal Reinforcement Learning repository have?",
-    "output": "The noahshinn/reflexion repository has 2,980 stars and 288 forks on GitHub."
+    "output": "The noahshinn/reflexion repository has 2,981 stars and 288 forks on GitHub."
   },
   {
     "input": "How many stars does the arXiv Query: search_query=&id_list=2312.02783&start=0&max_results=10 repository have?",
@@ -1289,7 +1289,7 @@
   },
   {
     "input": "How many stars does the Segment Anything in Medical Images repository have?",
-    "output": "The bowang-lab/MedSAM repository has 3,973 stars and 545 forks on GitHub."
+    "output": "The bowang-lab/MedSAM repository has 3,974 stars and 546 forks on GitHub."
   },
   {
     "input": "What are the key topics in the google/trax repository?",
@@ -1385,7 +1385,7 @@
   },
   {
     "input": "Give me an overview of FlashAttention-2: Faster Attention with Better Parallelism.",
-    "output": "FlashAttention-2: Faster Attention with Better Parallelism is a 2023 paper in Machine Learning. The implementation is available at Dao-AILab/flash-attention which fast and memory-efficient exact attention It is written in Python. The repository has 20,991 stars, indicating high community interest."
+    "output": "FlashAttention-2: Faster Attention with Better Parallelism is a 2023 paper in Machine Learning. The implementation is available at Dao-AILab/flash-attention which fast and memory-efficient exact attention It is written in Python. The repository has 20,993 stars, indicating high community interest."
   },
   {
     "input": "Tell me the title of ArXiv paper 2204.02311.",
@@ -1425,7 +1425,7 @@
   },
   {
     "input": "Give me an overview of ControlNet: Adding Conditional Control to Text-to-Image Diffusion.",
-    "output": "ControlNet: Adding Conditional Control to Text-to-Image Diffusion is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at lllyasviel/ControlNet which let us control diffusion models! It is written in Python. The repository has 33,414 stars, indicating high community interest."
+    "output": "ControlNet: Adding Conditional Control to Text-to-Image Diffusion is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at lllyasviel/ControlNet which let us control diffusion models! It is written in Python. The repository has 33,415 stars, indicating high community interest."
   },
   {
     "input": "What is the ArXiv category of arXiv Query: search_query=&id_list=2302.04870&start=0&max_results=10?",
@@ -1957,7 +1957,7 @@
   },
   {
     "input": "Give me an overview of Depthwise Separable Convolutions for Neural Machine Translation.",
-    "output": "Depthwise Separable Convolutions for Neural Machine Translation is a 2017 paper in Computation and Language (Natural Language Processing). The implementation is available at google-research/google-research which google research It is written in Jupyter Notebook. The repository has 36,868 stars, indicating high community interest."
+    "output": "Depthwise Separable Convolutions for Neural Machine Translation is a 2017 paper in Computation and Language (Natural Language Processing). The implementation is available at google-research/google-research which google research It is written in Jupyter Notebook. The repository has 36,869 stars, indicating high community interest."
   },
   {
     "input": "What is the GitHub repository for Time-LLM: Time Series Forecasting by Reprogramming Large Language Models?",
@@ -2105,7 +2105,7 @@
   },
   {
     "input": "How popular is the Whisper: Robust Speech Recognition via Large-Scale Weak Supervision implementation?",
-    "output": "The openai/whisper repository has 91,784 stars and 11,506 forks on GitHub."
+    "output": "The openai/whisper repository has 91,793 stars and 11,506 forks on GitHub."
   },
   {
     "input": "In what year did DistilBERT: a distilled version of BERT come out?",
@@ -2237,7 +2237,7 @@
   },
   {
     "input": "How many stars does the Swin Transformer: Hierarchical Vision Transformer using Shifted Windows repository have?",
-    "output": "The microsoft/Swin-Transformer repository has 15,513 stars and 2,200 forks on GitHub."
+    "output": "The microsoft/Swin-Transformer repository has 15,517 stars and 2,202 forks on GitHub."
   },
   {
     "input": "What year was Depthwise Separable Convolutions for Neural Machine Translation released?",
@@ -2389,7 +2389,7 @@
   },
   {
     "input": "Give me an overview of HuggingGPT: Solving AI Tasks with ChatGPT.",
-    "output": "HuggingGPT: Solving AI Tasks with ChatGPT is a 2023 paper in Artificial Intelligence. The implementation is available at microsoft/JARVIS which jarvis, a system to connect llms with ml community. paper: https://arxiv.org/pdf/2303.17580.pdf It is written in Python. The repository has 24,487 stars, indicating high community interest."
+    "output": "HuggingGPT: Solving AI Tasks with ChatGPT is a 2023 paper in Artificial Intelligence. The implementation is available at microsoft/JARVIS which jarvis, a system to connect llms with ml community. paper: https://arxiv.org/pdf/2303.17580.pdf It is written in Python. The repository has 24,488 stars, indicating high community interest."
   },
   {
     "input": "What category is the arXiv Query: search_query=&id_list=2209.07858&start=0&max_results=10 paper in?",
@@ -2425,7 +2425,7 @@
   },
   {
     "input": "Explain the ControlNet: Adding Conditional Control to Text-to-Image Diffusion paper.",
-    "output": "ControlNet: Adding Conditional Control to Text-to-Image Diffusion is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at lllyasviel/ControlNet which let us control diffusion models! It is written in Python. The repository has 33,414 stars, indicating high community interest."
+    "output": "ControlNet: Adding Conditional Control to Text-to-Image Diffusion is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at lllyasviel/ControlNet which let us control diffusion models! It is written in Python. The repository has 33,415 stars, indicating high community interest."
   },
   {
     "input": "Describe the google-research/prompt-tuning repository that implements The Power of Scale for Parameter-Efficient Prompt Tuning.",
@@ -2501,7 +2501,7 @@
   },
   {
     "input": "Give me an overview of Adam: A Method for Stochastic Optimization.",
-    "output": "Adam: A Method for Stochastic Optimization is a 2014 paper in Machine Learning. The implementation is available at pytorch/pytorch which tensors and dynamic neural networks in python with strong gpu acceleration It is written in Python. The repository has 95,721 stars, indicating high community interest."
+    "output": "Adam: A Method for Stochastic Optimization is a 2014 paper in Machine Learning. The implementation is available at pytorch/pytorch which tensors and dynamic neural networks in python with strong gpu acceleration It is written in Python. The repository has 95,727 stars, indicating high community interest."
   },
   {
     "input": "Describe the ruiqi-zhong/D5 repository that implements arXiv Query: search_query=&id_list=2302.14233&start=0&max_results=10.",
@@ -2553,7 +2553,7 @@
   },
   {
     "input": "What is Enriching Word Vectors with Subword Information about?",
-    "output": "Enriching Word Vectors with Subword Information is a 2016 paper in Computation and Language (Natural Language Processing). The implementation is available at facebookresearch/fastText which library for fast text representation and classification. It is written in HTML. The repository has 26,444 stars, indicating high community interest."
+    "output": "Enriching Word Vectors with Subword Information is a 2016 paper in Computation and Language (Natural Language Processing). The implementation is available at facebookresearch/fastText which library for fast text representation and classification. It is written in HTML. The repository has 26,445 stars, indicating high community interest."
   },
   {
     "input": "What category is the arXiv Query: search_query=&id_list=2301.13688&start=0&max_results=10 paper in?",
@@ -2573,7 +2573,7 @@
   },
   {
     "input": "What is LLaVA: Large Language and Vision Assistant about?",
-    "output": "LLaVA: Large Language and Vision Assistant is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at haotian-liu/LLaVA which [neurips'23 oral] visual instruction tuning (llava) built towards gpt-4v level capabilities and beyond. It is written in Python. The repository has 24,138 stars, indicating high community interest."
+    "output": "LLaVA: Large Language and Vision Assistant is a 2023 paper in Computer Vision and Pattern Recognition. The implementation is available at haotian-liu/LLaVA which [neurips'23 oral] visual instruction tuning (llava) built towards gpt-4v level capabilities and beyond. It is written in Python. The repository has 24,140 stars, indicating high community interest."
   },
   {
     "input": "Explain the arXiv Query: search_query=&id_list=2301.00774&start=0&max_results=10 paper.",
