@@ -8,6 +8,8 @@ import time
 import os
 import sys
 import re
+import requests
+import xml.etree.ElementTree as ET
 from typing import List, Dict
 from pathlib import Path
 from github import Github
@@ -36,6 +38,33 @@ class PapersWithCodeCollector:
         # Initialize GitHub API
         self.github_token = github_token or os.getenv("GITHUB_TOKEN")
         self.github = Github(self.github_token) if self.github_token else Github()
+
+    def fetch_arxiv_abstract(self, arxiv_id: str) -> str:
+        """
+        Fetch abstract from ArXiv API
+
+        Args:
+            arxiv_id: ArXiv paper ID
+
+        Returns:
+            Abstract text, or empty string if not found
+        """
+        try:
+            arxiv_api_url = f"http://export.arxiv.org/api/query?id_list={arxiv_id}"
+            arxiv_response = requests.get(arxiv_api_url, timeout=10)
+
+            if arxiv_response.status_code == 200:
+                root = ET.fromstring(arxiv_response.content)
+                summary_elem = root.find('.//{http://www.w3.org/2005/Atom}summary')
+
+                if summary_elem is not None and summary_elem.text:
+                    return summary_elem.text.strip()
+
+            time.sleep(1)  # ArXiv rate limiting
+        except Exception as e:
+            logger.debug(f"Error fetching abstract for {arxiv_id}: {e}")
+
+        return ""
 
     def validate_and_fetch_repos(self, paper: Dict, min_stars: int = 50) -> List[Dict]:
         """
@@ -122,6 +151,9 @@ class PapersWithCodeCollector:
             repos = self.validate_and_fetch_repos(paper_info, min_stars=min_stars)
 
             if repos:
+                # Fetch abstract from ArXiv
+                abstract = self.fetch_arxiv_abstract(paper_info["arxiv_id"])
+
                 # Create full paper metadata (simplified version)
                 paper = {
                     "arxiv_id": paper_info["arxiv_id"],
@@ -129,6 +161,7 @@ class PapersWithCodeCollector:
                     "year": paper_info["year"],
                     "category": paper_info["category"],
                     "url": f"https://arxiv.org/abs/{paper_info['arxiv_id']}",
+                    "abstract": abstract,
                 }
 
                 pair = {

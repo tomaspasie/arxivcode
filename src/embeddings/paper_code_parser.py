@@ -1,14 +1,13 @@
 """
-Day 4 Step 2: Parse paper_code_pairs.json
-Extracts paper descriptions and code descriptions from the JSON file
+Day 4 Step 2: Parse paper_code_with_files.json
+Extracts paper abstracts and code file contents from the JSON file
+Creates contrastive pairs: (abstract, code_file_content)
 """
 
 import json
-import time
 from pathlib import Path
 from typing import List, Tuple, Dict, Optional
 import logging
-import arxiv
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -16,28 +15,26 @@ logger = logging.getLogger(__name__)
 
 class PaperCodeParser:
     """
-    Parser for paper_code_pairs.json that extracts paper and code text
+    Parser for paper_code_with_files.json that extracts paper abstracts and code file contents
+    Creates one pair per code file: (paper_abstract, code_file_content)
     """
 
-    def __init__(self, json_path: str, fetch_abstracts: bool = False):
+    def __init__(self, json_path: str):
         """
         Initialize parser
 
         Args:
-            json_path: Path to paper_code_pairs.json
-            fetch_abstracts: Whether to fetch abstracts from ArXiv API
-                           (slower but more complete)
+            json_path: Path to paper_code_with_files.json
         """
         self.json_path = Path(json_path)
-        self.fetch_abstracts = fetch_abstracts
         self.pairs = []
 
     def load_json(self) -> List[Dict]:
         """
-        Load paper_code_pairs.json file
+        Load paper_code_with_files.json file
 
         Returns:
-            List of paper-code pair dictionaries
+            List of paper-code pair dictionaries with code files
         """
         logger.info(f"Loading JSON file: {self.json_path}")
         if not self.json_path.exists():
@@ -46,160 +43,134 @@ class PaperCodeParser:
         with open(self.json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        logger.info(f"Loaded {len(data)} paper-code pairs")
+        logger.info(f"Loaded {len(data)} papers with repositories")
         return data
 
-    def fetch_abstract(self, arxiv_id: str) -> Optional[str]:
+    def extract_paper_text(self, paper: Dict) -> str:
         """
-        Fetch abstract from ArXiv API
+        Extract paper abstract text
 
         Args:
-            arxiv_id: ArXiv paper ID (e.g., "1706.03762")
+            paper: Paper dictionary with title, arxiv_id, abstract, etc.
 
         Returns:
-            Abstract text or None if not found
-        """
-        try:
-            # Remove version suffix if present (e.g., "1706.03762v1" -> "1706.03762")
-            arxiv_id_clean = arxiv_id.split("v")[0]
-
-            # Search for paper
-            search = arxiv.Search(id_list=[arxiv_id_clean])
-            paper = next(search.results(), None)
-
-            if paper:
-                return paper.summary
-            else:
-                logger.warning(f"Could not fetch abstract for {arxiv_id}")
-                return None
-
-        except Exception as e:
-            logger.warning(f"Error fetching abstract for {arxiv_id}: {e}")
-            return None
-
-    def extract_paper_text(self, paper: Dict, abstract: Optional[str] = None) -> str:
-        """
-        Extract paper description text
-
-        Args:
-            paper: Paper dictionary with title, arxiv_id, etc.
-            abstract: Optional abstract text (fetched from ArXiv if available)
-
-        Returns:
-            Combined paper text: "title + abstract"
+            Paper text: "title + abstract"
         """
         title = paper.get("title") or ""
         title = title.strip() if title else ""
-        arxiv_id = paper.get("arxiv_id", "")
+        
+        abstract = paper.get("abstract") or ""
+        abstract = abstract.strip() if abstract else ""
 
-        # Build paper text
-        paper_text = title
-
+        # Build paper text: title + abstract
         if abstract:
             paper_text = f"{title} {abstract}"
-        elif self.fetch_abstracts:
-            # Try to fetch abstract
-            fetched_abstract = self.fetch_abstract(arxiv_id)
-            if fetched_abstract:
-                paper_text = f"{title} {fetched_abstract}"
-                time.sleep(0.5)  # Rate limiting for ArXiv API
+        else:
+            paper_text = title
 
         return paper_text.strip()
 
-    def extract_code_text(self, repo: Dict) -> str:
+    def extract_code_file_content(self, code_file: Dict) -> str:
         """
-        Extract code description text
+        Extract code file content
 
         Args:
-            repo: Repository dictionary with name, description, etc.
+            code_file: Code file dictionary with path, content, language, etc.
 
         Returns:
-            Combined code text: "repository.name + repository.description"
+            Code file content as string
         """
-        name = repo.get("name") or ""
-        name = name.strip() if name else ""
-
-        description = repo.get("description") or ""
-        description = description.strip() if description else ""
-
-        # Combine name and description
-        code_text = name
-        if description:
-            code_text = f"{name} {description}"
-
-        return code_text.strip()
+        content = code_file.get("content") or ""
+        return content.strip()
 
     def parse(self) -> List[Tuple[str, str, Dict]]:
         """
         Parse JSON file and extract paper-code text pairs
+        Creates one pair per code file: (paper_abstract, code_file_content)
 
         Returns:
             List of tuples: (paper_text, code_text, metadata)
-            metadata contains: paper_id, repo_name, arxiv_id, etc.
+            metadata contains: paper_id, repo_name, arxiv_id, code_file_path, etc.
         """
         logger.info("=" * 60)
-        logger.info("Day 4 Step 2: Parsing paper_code_pairs.json")
+        logger.info("Day 4 Step 2: Parsing paper_code_with_files.json")
         logger.info("=" * 60)
 
         # Load JSON
         data = self.load_json()
 
         pairs = []
-        skipped = 0
+        skipped_papers = 0
+        skipped_files = 0
+        total_code_files = 0
 
-        for i, pair in enumerate(data, 1):
-            paper = pair.get("paper", {})
-            repositories = pair.get("repositories", [])
+        for i, entry in enumerate(data, 1):
+            paper = entry.get("paper", {})
+            repositories = entry.get("repositories", [])
 
             # Skip if paper is missing required fields
-            if not paper or not paper.get("title") or paper.get("title") is None:
-                logger.warning(f"Pair {i}: Skipping - missing paper title")
-                skipped += 1
+            if not paper:
+                logger.warning(f"Entry {i}: Skipping - missing paper")
+                skipped_papers += 1
                 continue
 
-            # Extract paper text
+            # Extract paper text (title + abstract)
             paper_text = self.extract_paper_text(paper)
 
             if not paper_text:
-                logger.warning(f"Pair {i}: Skipping - empty paper text")
-                skipped += 1
+                logger.warning(f"Entry {i}: Skipping - empty paper text (no title/abstract)")
+                skipped_papers += 1
                 continue
 
             # Process each repository
             for repo in repositories:
-                # Skip if repository is missing required fields
-                if not repo or not repo.get("name") or repo.get("name") is None:
-                    logger.debug(f"Pair {i}: Skipping repo - missing name")
+                # Skip if repository wasn't cloned or has no code files
+                if not repo.get("cloned", False):
+                    logger.debug(f"Entry {i}: Repo {repo.get('name', 'unknown')} not cloned, skipping")
                     continue
 
-                # Extract code text
-                code_text = self.extract_code_text(repo)
-
-                if not code_text:
-                    logger.debug(f"Pair {i}: Skipping repo - empty code text")
+                code_files = repo.get("code_files", [])
+                if not code_files:
+                    logger.debug(f"Entry {i}: Repo {repo.get('name', 'unknown')} has no code files, skipping")
                     continue
 
-                # Create metadata
-                metadata = {
-                    "arxiv_id": paper.get("arxiv_id") or "",
-                    "paper_title": paper.get("title") or "",
-                    "repo_name": repo.get("name") or "",
-                    "repo_url": repo.get("url") or "",
-                    "pair_index": i,
-                }
+                # Create a pair for each code file
+                for code_file in code_files:
+                    code_text = self.extract_code_file_content(code_file)
 
-                pairs.append((paper_text, code_text, metadata))
+                    if not code_text:
+                        skipped_files += 1
+                        continue
 
-                if i % 50 == 0:
+                    total_code_files += 1
+
+                    # Create metadata
+                    metadata = {
+                        "arxiv_id": paper.get("arxiv_id") or "",
+                        "paper_title": paper.get("title") or "",
+                        "repo_name": repo.get("name") or "",
+                        "repo_url": repo.get("url") or "",
+                        "code_file_path": code_file.get("path") or "",
+                        "code_language": code_file.get("language") or "",
+                        "code_file_extension": code_file.get("extension") or "",
+                        "code_file_lines": code_file.get("lines", 0),
+                        "pair_index": i,
+                    }
+
+                    pairs.append((paper_text, code_text, metadata))
+
+                if i % 10 == 0:
                     logger.info(
-                        f"Processed {i}/{len(data)} pairs... ({len(pairs)} text pairs created)"
+                        f"Processed {i}/{len(data)} papers... ({len(pairs)} text pairs created from {total_code_files} code files)"
                     )
 
         logger.info("=" * 60)
         logger.info(f"Parsing complete!")
-        logger.info(f"  Total pairs processed: {len(data)}")
+        logger.info(f"  Total papers processed: {len(data)}")
+        logger.info(f"  Papers skipped: {skipped_papers}")
+        logger.info(f"  Code files processed: {total_code_files}")
+        logger.info(f"  Code files skipped: {skipped_files}")
         logger.info(f"  Text pairs created: {len(pairs)}")
-        logger.info(f"  Skipped: {skipped}")
         logger.info("=" * 60)
 
         self.pairs = pairs
@@ -261,22 +232,20 @@ class PaperCodeParser:
 
 
 def parse_paper_code_pairs(
-    json_path: str = "data/raw/papers/paper_code_pairs.json",
-    fetch_abstracts: bool = False,
+    json_path: str = "data/raw/papers/paper_code_with_files.json",
     output_path: Optional[str] = None,
 ) -> List[Tuple[str, str, Dict]]:
     """
-    Convenience function to parse paper_code_pairs.json
+    Convenience function to parse paper_code_with_files.json
 
     Args:
-        json_path: Path to paper_code_pairs.json
-        fetch_abstracts: Whether to fetch abstracts from ArXiv
+        json_path: Path to paper_code_with_files.json
         output_path: Optional path to save parsed pairs
 
     Returns:
         List of (paper_text, code_text, metadata) tuples
     """
-    parser = PaperCodeParser(json_path, fetch_abstracts=fetch_abstracts)
+    parser = PaperCodeParser(json_path)
     pairs = parser.parse()
     pairs = parser.filter_empty(pairs)
 
@@ -290,11 +259,10 @@ if __name__ == "__main__":
     # Example usage
     import sys
 
-    # Parse without fetching abstracts (faster)
-    logger.info("Parsing paper_code_pairs.json (without abstracts)...")
+    # Parse paper_code_with_files.json (includes abstracts and code files)
+    logger.info("Parsing paper_code_with_files.json...")
     pairs = parse_paper_code_pairs(
-        json_path="data/raw/papers/paper_code_pairs.json",
-        fetch_abstracts=False,
+        json_path="data/raw/papers/paper_code_with_files.json",
         output_path="data/processed/parsed_pairs.json",
     )
 

@@ -22,7 +22,7 @@ from pathlib import Path
 # Import collectors
 from awesome_papers_collector import AwesomePapersCollector
 from pwc_hf_collector import PapersWithCodeCollector
-from merge_collections import merge_collections
+from merge_collections import merge_collections, load_collection, save_merged
 from code_downloader import CodeDownloader
 from paper_qa_dataset_generator import PaperQADatasetGenerator
 
@@ -67,9 +67,12 @@ def run_pipeline(
 
         try:
             awesome_collector = AwesomePapersCollector()
-            awesome_collector.collect_all(
-                min_stars=min_stars,
-                output_file="data/raw/papers/awesome_collection.json"
+            pairs = awesome_collector.collect_all(
+                min_stars=min_stars
+            )
+            awesome_collector.save_results(
+                pairs,
+                filename="awesome_collection.json"
             )
             logger.info("✅ Awesome list collection complete")
         except Exception as e:
@@ -85,8 +88,12 @@ def run_pipeline(
 
         try:
             curated_collector = PapersWithCodeCollector()
-            curated_collector.collect_paper_code_pairs(
+            pairs = curated_collector.collect_paper_code_pairs(
                 min_stars=min_stars
+            )
+            curated_collector.save_results(
+                pairs,
+                filename="curated_collection.json"
             )
             logger.info("✅ Curated list collection complete")
         except Exception as e:
@@ -98,11 +105,37 @@ def run_pipeline(
     logger.info("\n[Stage 3/5] Merging collections and removing duplicates...")
 
     try:
-        merge_collections(
-            awesome_file="data/raw/papers/awesome_collection.json",
-            curated_file="data/raw/papers/curated_collection.json",
-            output_file="data/raw/papers/paper_code_pairs.json"
-        )
+        data_dir = Path("data/raw/papers")
+        collections = []
+
+        # Load awesome collection if it exists
+        awesome_file = data_dir / "awesome_collection.json"
+        if awesome_file.exists():
+            awesome_data = load_collection(awesome_file)
+            collections.append(awesome_data)
+            logger.info(f"Loaded {len(awesome_data)} papers from awesome collection")
+        else:
+            logger.info("Awesome collection file not found, skipping...")
+
+        # Load curated collection if it exists
+        curated_file = data_dir / "curated_collection.json"
+        if curated_file.exists():
+            curated_data = load_collection(curated_file)
+            collections.append(curated_data)
+            logger.info(f"Loaded {len(curated_data)} papers from curated collection")
+        else:
+            logger.info("Curated collection file not found, skipping...")
+
+        if not collections:
+            logger.error("❌ No collections found to merge")
+            return
+
+        # Merge collections
+        merged = merge_collections(collections)
+        
+        # Save merged collection
+        save_merged(merged, data_dir, filename="paper_code_pairs.json")
+        
         logger.info("✅ Collections merged successfully")
     except Exception as e:
         logger.error(f"❌ Merge failed: {e}")

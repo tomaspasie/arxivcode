@@ -14,7 +14,7 @@ These embeddings are then used for semantic code retrieval: given a paper query,
 
 ## Prerequisites
 
-1. **Data**: You need `data/raw/papers/paper_code_pairs.json` (created by data collection pipeline)
+1. **Data**: You need `data/raw/papers/paper_code_with_files.json` (created by data collection pipeline with abstracts and code files)
 2. **Environment**: Python 3.11 with required packages (see main `requirements.txt`)
 3. **GPU** (optional but recommended): Training is faster on GPU
 
@@ -30,8 +30,9 @@ python src/embeddings/paper_code_parser.py
 ```
 
 **What it does:**
-- Reads `data/raw/papers/paper_code_pairs.json`
-- Extracts paper text (title + optional abstract) and code text (repo name + description)
+- Reads `data/raw/papers/paper_code_with_files.json`
+- Extracts paper abstracts and code file contents
+- Creates one contrastive pair per code file: (paper_abstract, code_file_content)
 - Filters out empty or invalid pairs
 - Saves to `data/processed/parsed_pairs.json`
 
@@ -40,13 +41,15 @@ python src/embeddings/paper_code_parser.py
 
 **What you'll see:**
 ```
-Day 4 Step 2: Parsing paper_code_pairs.json
-Loading JSON file: data/raw/papers/paper_code_pairs.json
-Loaded 249 paper-code pairs
+Day 4 Step 2: Parsing paper_code_with_files.json
+Loading JSON file: data/raw/papers/paper_code_with_files.json
+Loaded 249 papers with repositories
 Parsing complete!
-  Total pairs processed: 249
-  Text pairs created: 249
-  Skipped: 0
+  Total papers processed: 249
+  Papers skipped: 0
+  Code files processed: 1250
+  Code files skipped: 5
+  Text pairs created: 1245
 ```
 
 ---

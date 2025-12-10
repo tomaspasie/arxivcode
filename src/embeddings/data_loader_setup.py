@@ -262,8 +262,7 @@ if __name__ == "__main__":
         from paper_code_parser import parse_paper_code_pairs
 
         pairs = parse_paper_code_pairs(
-            json_path="data/raw/papers/paper_code_pairs.json",
-            fetch_abstracts=False,
+            json_path="data/raw/papers/paper_code_with_files.json",
             output_path=str(parsed_path),
         )
         print(f"✓ Parsed {len(pairs)} pairs")

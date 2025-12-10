@@ -173,6 +173,7 @@ class AwesomePapersCollector:
 
                                     title_elem = root.find('.//{http://www.w3.org/2005/Atom}title')
                                     published_elem = root.find('.//{http://www.w3.org/2005/Atom}published')
+                                    summary_elem = root.find('.//{http://www.w3.org/2005/Atom}summary')
 
                                     if title_elem is not None:
                                         paper_title = title_elem.text.strip()
@@ -183,6 +184,11 @@ class AwesomePapersCollector:
                                             year_match = re.search(r'(\d{4})', published_elem.text)
                                             if year_match:
                                                 year = int(year_match.group(1))
+
+                                        # Extract abstract
+                                        abstract = ""
+                                        if summary_elem is not None and summary_elem.text:
+                                            abstract = summary_elem.text.strip()
 
                                         # Get GitHub repo metadata
                                         repo_data_list = []
@@ -217,7 +223,8 @@ class AwesomePapersCollector:
                                                     'title': paper_title,
                                                     'year': year,
                                                     'category': category,
-                                                    'url': f"https://arxiv.org/abs/{arxiv_id}"
+                                                    'url': f"https://arxiv.org/abs/{arxiv_id}",
+                                                    'abstract': abstract
                                                 },
                                                 'repositories': repo_data_list
                                             }
