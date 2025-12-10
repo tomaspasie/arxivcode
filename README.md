@@ -148,8 +148,9 @@ print("Relevance score:", result['reranked_results'][0]['score'])
 - Dense retrieval pipeline and query testing ✅
 - **Cross-encoder re-ranking pipeline** for relevance scoring ✅
 
-⏳ **Phase 3: System Integration** (Upcoming - Days 8-12)
-- Backend API (Flask/FastAPI) for model inference
+🔄 **Phase 3: System Integration** (In Progress - Days 8-12)
+- **LLM Explanation API**: FastAPI backend with GPT-4o for code explanations ✅
+- Backend API for model inference and retrieval integration ✅
 - Connect fine-tuned LLM to retrieval results
 - Web interface with search functionality
 - End-to-end testing and performance optimization
@@ -159,18 +160,56 @@ print("Relevance score:", result['reranked_results'][0]['score'])
 - Final report and presentation slides
 - Demo video and deployment instructions
 
+## LLM-Based Code Explanation API
+
+ArxivCode now includes an LLM-powered explanation service that generates contextual explanations for code snippets using OpenAI's GPT-4o.
+
+### Quick Start
+
+```bash
+# 1. Install dependencies
+pip install openai fastapi uvicorn pydantic
+
+# 2. Set your OpenAI API key
+export OPENAI_API_KEY="your-key-here"
+
+# 3. Start the API server
+./scripts/start_api.sh
+```
+
+The API will be available at http://localhost:8000 with interactive docs at http://localhost:8000/docs
+
+### Example Usage
+
+```bash
+curl -X POST http://localhost:8000/explain \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "contrastive learning",
+    "code_snippet": "def contrastive_loss(z1, z2, temperature=0.5): ...",
+    "paper_title": "SimCLR: A Simple Framework for Contrastive Learning",
+    "paper_context": "Framework for contrastive self-supervised learning"
+  }'
+```
+
+See **[LLM_QUICKSTART.md](LLM_QUICKSTART.md)** for a 5-minute setup guide.
+
 ## Documentation
 
+- **[LLM Quick Start](LLM_QUICKSTART.md)** - Get started in 5 minutes
+- **[LLM Explanation API](docs/LLM_EXPLANATION_API.md)** - Full API documentation
+- **[Implementation Summary](docs/IMPLEMENTATION_SUMMARY.md)** - What was built and how
 - **[Data Collection Guide](docs/DATA_COLLECTION_GUIDE.md)** - Collection pipeline details
 - **[Collection Methods Evaluation](docs/COLLECTION_METHODS_EVALUATION.md)** - Method comparison & rationale
 - **[Paper Comprehension Model](docs/PAPER_COMPREHENSION_MODEL.md)** - Model training & deployment
 
 ## Requirements
 
-- Python 3.11
+- Python 3.11 (or 3.9+)
 - 8GB+ RAM (16GB recommended for model training)
 - GitHub Personal Access Token (for data collection)
 - Hugging Face account (for model access)
+- OpenAI API key (for LLM explanations)
 
 ## License
 
