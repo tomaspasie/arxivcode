@@ -139,55 +139,65 @@ Test the complete ArXivCode system with the FastAPI backend and Streamlit fronte
 
 ### Start the Backend API
 
-```bash
-# Terminal 1: Start the FastAPI backend
-/Users/tomaspasie/Downloads/arxivcode/venv/bin/python -m src.api.app
-```
-
-**Access the API:**
-- **Interactive Docs**: http://localhost:8000/docs
-- **Health Check**: http://localhost:8000/
-- **API Endpoints**:
-  - `POST /search` - Search for code implementations
-  - `POST /explain` - Generate explanations for code snippets
-  - `GET /stats` - System statistics
-
-### Start the Frontend
-
-```bash
-# Terminal 2: Start the Streamlit frontend
-/Users/tomaspasie/Downloads/arxivcode/venv/bin/streamlit run frontend/app.py
-```
-
-**Access the Frontend:**
-- **Web Interface**: http://localhost:8501
-- **Features**:
-  - Search for theoretical concepts from papers
-  - View code implementations with explanations
-  - Browse example queries and system stats
-  - Interactive expandable results with links
-
-### End-to-End Testing
-
-1. **Start both services** (backend on :8000, frontend on :8501)
-2. **Test search**: Enter queries like "attention mechanism" or "LoRA implementation"
-3. **Test explanations**: Click "Explain" buttons on results
-4. **Verify integration**: Frontend calls backend API automatically
+🔄 **Phase 3: System Integration** (In Progress - Days 8-12)
+- **LLM Explanation API**: FastAPI backend with GPT-4o for code explanations ✅
+- Backend API for model inference and retrieval integration ✅
+- Connect fine-tuned LLM to retrieval results
+- Web interface with search functionality
+- End-to-end testing and performance optimization
 
 **Current Status**: API uses dummy data for development. Replace with real CodeBERT embeddings when available from the team.
 
+## LLM-Based Code Explanation API
+
+ArxivCode now includes an LLM-powered explanation service that generates contextual explanations for code snippets using OpenAI's GPT-4o.
+
+### Quick Start
+
+```bash
+# 1. Install dependencies
+pip install openai fastapi uvicorn pydantic
+
+# 2. Set your OpenAI API key
+export OPENAI_API_KEY="your-key-here"
+
+# 3. Start the API server
+./scripts/start_api.sh
+```
+
+The API will be available at http://localhost:8000 with interactive docs at http://localhost:8000/docs
+
+### Example Usage
+
+```bash
+curl -X POST http://localhost:8000/explain \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "contrastive learning",
+    "code_snippet": "def contrastive_loss(z1, z2, temperature=0.5): ...",
+    "paper_title": "SimCLR: A Simple Framework for Contrastive Learning",
+    "paper_context": "Framework for contrastive self-supervised learning"
+  }'
+```
+
+See **[LLM_QUICKSTART.md](LLM_QUICKSTART.md)** for a 5-minute setup guide.
+
 ## Documentation
 
+- **[LLM Quick Start](LLM_QUICKSTART.md)** - Get started in 5 minutes
+- **[LLM Explanation API](docs/LLM_EXPLANATION_API.md)** - Full API documentation
+- **[Implementation Summary](docs/IMPLEMENTATION_SUMMARY.md)** - What was built and how
 - **[Data Collection Guide](docs/DATA_COLLECTION_GUIDE.md)** - Collection pipeline details
 - **[Collection Methods Evaluation](docs/COLLECTION_METHODS_EVALUATION.md)** - Method comparison & rationale
 - **[Model Setup Guide](docs/PAPER_COMPREHENSION_MODEL.md)** - Model configuration & usage
 
 ## Requirements
 
-- Python 3.11
+- Python 3.11 (or 3.9+)
 - 8GB+ RAM (16GB recommended for model training)
 - GitHub Personal Access Token (for data collection)
 - Hugging Face account (for model access)
+- OpenAI API key (for LLM explanations)
 
 ## License
 
