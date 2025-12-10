@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 def build_index_from_collection(
     input_path: str,
     output_dir: str,
-    embedding_model: str = "tfidf"  # Changed default to TF-IDF for macOS stability
+    embedding_model: str = "tfidf"  # SWAP: Change to "microsoft/codebert-base" when switching to CodeBERT
 ):
     """
     Build FAISS index from collected paper-code pairs.

@@ -17,3 +17,10 @@ torchvision==0.15.2
 torchaudio==2.0.2
 # Transformers version compatible with PyTorch 2.0.1 (newer versions require PyTorch >= 2.1)
 transformers>=4.30.0,<4.40.0
+
+# API dependencies
+fastapi
+uvicorn
+
+# Frontend dependencies
+streamlit
