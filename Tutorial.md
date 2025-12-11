@@ -106,7 +106,24 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 **Security Note**: Never commit your `.env` file to version control. It's already included in `.gitignore`.
 
-### Step 5: Download CodeBERT Model (First Run)
+### Step 5: Download Large Data Files
+
+The project uses Git LFS (Large File Storage) to manage large data files like pre-computed embeddings. You need to download these files before running the application:
+
+```bash
+# Install Git LFS (if not already installed)
+brew install git-lfs
+
+# Initialize Git LFS in the repository
+git lfs install
+
+# Download the large data files
+git lfs pull
+```
+
+**Note**: This will download approximately 100MB of data files. The embeddings are essential for the retrieval system to work.
+
+### Step 6: Download CodeBERT Model (First Run)
 
 The CodeBERT model will be automatically downloaded on first use when you run the application. However, if you want to pre-download it:
 
@@ -116,7 +133,7 @@ python -c "from sentence_transformers import SentenceTransformer; SentenceTransf
 
 This will download the model to your Hugging Face cache directory (typically `~/.cache/huggingface/`).
 
-### Step 6: Verify Installation
+### Step 7: Verify Installation
 
 Test that everything is installed correctly:
 
@@ -442,7 +459,14 @@ cd /path/to/arxivcode
 - For GitHub: Ensure token has `public_repo` scope
 - For OpenAI: Verify account has credits
 
-**4. Port Already in Use**
+**4. Git LFS Data Files Not Downloaded**
+- If you get errors about loading embeddings or "Cannot load file containing pickled data"
+- Install Git LFS: `brew install git-lfs`
+- Initialize in repo: `git lfs install`
+- Download files: `git lfs pull`
+- Check that `data/processed/embeddings/code_embeddings.npy` is >100MB (not 134 bytes)
+
+**5. Port Already in Use**
 ```bash
 # Find process using port 8000
 lsof -i :8000
@@ -451,12 +475,12 @@ lsof -i :8000
 python -m uvicorn src.api.app:app --port 8001
 ```
 
-**5. Out of Memory**
+**6. Out of Memory**
 - Reduce batch size in embedding generation: `--batch-size 16`
 - Use CPU instead of GPU: `--device cpu`
 - Close other applications
 
-**6. Missing Data Files**
+**7. Missing Data Files**
 - Ensure you've run the data collection pipeline
 - Check that `data/processed/embeddings_v2/` exists
 - Verify `code_embeddings.npy` and `metadata.json` are present
@@ -489,6 +513,7 @@ This tutorial covered:
 - ✅ Local environment setup with virtual environment
 - ✅ Installing dependencies from `requirements.txt`
 - ✅ Configuring environment variables
+- ✅ Downloading large data files with Git LFS
 - ✅ Running the backend API and frontend UI
 - ✅ Advanced data collection pipeline
 - ✅ Code extraction and cleaning
