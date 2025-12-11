@@ -1,22 +1,29 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import sys
+import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add project root to path for imports
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
 from src.retrieval.dense_retrieval import DenseRetrieval
+from src.models.explanation_llm import ExplanationLLM
 
 app = FastAPI(title="ArXivCode API")
 
-# Global retriever instance
+# Global instances
 retriever = None
+explanation_llm = None
 
 @app.on_event("startup")
 async def load_resources():
-    global retriever
+    global retriever, explanation_llm
     print("Loading retrieval system...")
     retriever = DenseRetrieval(
         embedding_model_name="microsoft/codebert-base",
@@ -24,6 +31,10 @@ async def load_resources():
     )
     stats = retriever.get_statistics()
     print(f"Loaded {stats['total_vectors']} code snippets")
+    
+    print("Loading explanation LLM...")
+    explanation_llm = ExplanationLLM(model="gpt-4o", temperature=0.3)
+    print("Explanation LLM ready")
 
 class SearchRequest(BaseModel):
     query: str
@@ -77,16 +88,19 @@ async def search(request: SearchRequest):
 
 @app.post("/explain")
 async def explain(request: ExplainRequest):
-    # Placeholder for LLM integration
-    explanation = f"""**Code Explanation for: {request.paper_title}**
-
-This code snippet implements functionality related to "{request.query}".
-
-The function/class shown is part of the implementation from the paper "{request.paper_title}".
-
-*Note: Full LLM-powered explanations coming soon!*"""
+    if not explanation_llm:
+        raise HTTPException(status_code=503, detail="Explanation LLM not initialized")
     
-    return {"explanation": explanation}
+    try:
+        explanation = explanation_llm.generate_explanation(
+            query=request.query,
+            code_snippet=request.code_snippet,
+            paper_title=request.paper_title,
+            paper_context=request.paper_context
+        )
+        return {"explanation": explanation}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to generate explanation: {str(e)}")
 
 @app.get("/stats")
 async def stats():
