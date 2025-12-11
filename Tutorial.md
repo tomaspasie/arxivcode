@@ -161,11 +161,6 @@ source venv/bin/activate
 python -m uvicorn src.api.app:app --host 0.0.0.0 --port 8000
 ```
 
-Or use the provided script:
-
-```bash
-./scripts/start_api.sh
-```
 
 The API will be available at:
 - **API**: http://localhost:8000

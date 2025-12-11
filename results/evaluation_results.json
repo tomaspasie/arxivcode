@@ -1,0 +1,321 @@
+{
+  "system_performance": {
+    "papers_indexed": 196,
+    "code_snippets": 2490,
+    "retrieval_time_ms": 313.47,
+    "retrieval_time_median_ms": 223.94,
+    "explanation_time_ms": 0,
+    "retrieval_time_seconds": "<0.313s",
+    "explanation_time_seconds": "N/A"
+  },
+  "retrieval_accuracy": {
+    "overall": {
+      "relevant_pct": 21.7,
+      "partial_pct": 73.9,
+      "not_relevant_pct": 4.3
+    },
+    "by_type": {
+      "architecture": {
+        "relevant_pct": 0.0,
+        "partial_pct": 87.5,
+        "not_relevant_pct": 12.5,
+        "total": 8
+      },
+      "implementation": {
+        "relevant_pct": 50.0,
+        "partial_pct": 50.0,
+        "not_relevant_pct": 0.0,
+        "total": 10
+      },
+      "conceptual": {
+        "relevant_pct": 0.0,
+        "partial_pct": 100.0,
+        "not_relevant_pct": 0.0,
+        "total": 5
+      }
+    },
+    "detailed_results": [
+      {
+        "query": "multi-head attention",
+        "type": "architecture",
+        "top_score": 0.931,
+        "top_function": "prompt_decoder_attention_mask",
+        "top_paper": "The Power of Scale for Parameter-Efficient Prompt ",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "transformer encoder",
+        "type": "architecture",
+        "top_score": 0.934,
+        "top_function": "prompt_decoder_attention_mask",
+        "top_paper": "The Power of Scale for Parameter-Efficient Prompt ",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "vision transformer",
+        "type": "architecture",
+        "top_score": 0.91,
+        "top_function": "_EncoderDecoderBlock",
+        "top_paper": "Reformer: The Efficient Transformer",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "BERT architecture",
+        "type": "architecture",
+        "top_score": 0.916,
+        "top_function": "NNModule.load_model",
+        "top_paper": "DeBERTa: Decoding-enhanced BERT with Disentangled ",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "residual connections",
+        "type": "architecture",
+        "top_score": 0.923,
+        "top_function": "Block.forward",
+        "top_paper": "arXiv Query: search_query=&id_list=2303.04226&star",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "layer normalization",
+        "type": "architecture",
+        "top_score": 0.916,
+        "top_function": "_allocate_modules_to_layers",
+        "top_paper": "arXiv Query: search_query=&id_list=2301.04104&star",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "feed-forward network",
+        "type": "architecture",
+        "top_score": 0.928,
+        "top_function": "_EncoderDecoderBlock",
+        "top_paper": "Reformer: The Efficient Transformer",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "self-attention mechanism",
+        "type": "architecture",
+        "top_score": 0.939,
+        "top_function": "prompt_decoder_attention_mask",
+        "top_paper": "The Power of Scale for Parameter-Efficient Prompt ",
+        "estimated_relevance": "not_relevant"
+      },
+      {
+        "query": "how to implement LoRA",
+        "type": "implementation",
+        "top_score": 0.924,
+        "top_function": "LoRALoaderMixin._load_lora_state_dict",
+        "top_paper": "Mistral 7B",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "learning rate schedule",
+        "type": "implementation",
+        "top_score": 0.923,
+        "top_function": "_long_term_planning",
+        "top_paper": "arXiv Query: search_query=&id_list=2503.22678&star",
+        "estimated_relevance": "relevant"
+      },
+      {
+        "query": "gradient clipping",
+        "type": "implementation",
+        "top_score": 0.903,
+        "top_function": "pegasus_adafactor",
+        "top_paper": "arXiv Query: search_query=&id_list=2006.16779&star",
+        "estimated_relevance": "relevant"
+      },
+      {
+        "query": "dropout implementation",
+        "type": "implementation",
+        "top_score": 0.923,
+        "top_function": "_EncoderDecoderBlock",
+        "top_paper": "Reformer: The Efficient Transformer",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "positional encoding",
+        "type": "implementation",
+        "top_score": 0.913,
+        "top_function": "SentenceTransformer.encode_multi_process",
+        "top_paper": "Sentence-BERT: Sentence Embeddings using Siamese B",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "masked language modeling",
+        "type": "implementation",
+        "top_score": 0.927,
+        "top_function": "mesh_inference_dataset_fn",
+        "top_paper": "T5: Exploring the Limits of Transfer Learning",
+        "estimated_relevance": "relevant"
+      },
+      {
+        "query": "fine-tuning BERT",
+        "type": "implementation",
+        "top_score": 0.937,
+        "top_function": "create_instances_from_document",
+        "top_paper": "ALBERT: A Lite BERT",
+        "estimated_relevance": "relevant"
+      },
+      {
+        "query": "contrastive learning loss",
+        "type": "implementation",
+        "top_score": 0.938,
+        "top_function": "_ModelFnWrapper.convert_to_single_tpu_train_step",
+        "top_paper": "Transformer-XL: Attentive Language Models Beyond a",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "data augmentation",
+        "type": "implementation",
+        "top_score": 0.928,
+        "top_function": "text_infilling",
+        "top_paper": "The Power of Scale for Parameter-Efficient Prompt ",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "optimizer setup",
+        "type": "implementation",
+        "top_score": 0.927,
+        "top_function": "convert_checkpoint",
+        "top_paper": "arXiv Query: search_query=&id_list=2006.16779&star",
+        "estimated_relevance": "relevant"
+      },
+      {
+        "query": "why use layer norm",
+        "type": "conceptual",
+        "top_score": 0.932,
+        "top_function": "_allocate_modules_to_layers",
+        "top_paper": "arXiv Query: search_query=&id_list=2301.04104&star",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "attention mechanism explanation",
+        "type": "conceptual",
+        "top_score": 0.939,
+        "top_function": "prompt_decoder_attention_mask",
+        "top_paper": "The Power of Scale for Parameter-Efficient Prompt ",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "backpropagation through attention",
+        "type": "conceptual",
+        "top_score": 0.936,
+        "top_function": "prompt_decoder_attention_mask",
+        "top_paper": "The Power of Scale for Parameter-Efficient Prompt ",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "normalization benefits",
+        "type": "conceptual",
+        "top_score": 0.916,
+        "top_function": "FlashAttentionForwardSm100.correction_rescale",
+        "top_paper": "FlashAttention-2: Faster Attention with Better Par",
+        "estimated_relevance": "partial"
+      },
+      {
+        "query": "why residual connections work",
+        "type": "conceptual",
+        "top_score": 0.931,
+        "top_function": "Block.forward",
+        "top_paper": "arXiv Query: search_query=&id_list=2302.10866&star",
+        "estimated_relevance": "partial"
+      }
+    ]
+  },
+  "case_studies": {
+    "success": {
+      "query": "multi-head attention",
+      "top_score": 0.931,
+      "function_name": "prompt_decoder_attention_mask",
+      "paper_title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+      "code_preview": "def prompt_decoder_attention_mask(\n    prompt_length: int,\n    allowable_attention: Optional[Set[str]] = None,\n    multitask: bool = False) -> Callable[[Array, Array, DType], Array]:\n  \"\"\"Create the p...",
+      "explanation": null
+    },
+    "partial": {
+      "query": "learning rate schedule",
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.923,
+          "function_name": "_long_term_planning",
+          "paper_title": "arXiv Query: search_query=&id_list=2503.22678&star",
+          "note": "Mixed results (warmup, decay, cyclic) - query ambiguity"
+        },
+        {
+          "rank": 2,
+          "score": 0.923,
+          "function_name": "_long_term_planning",
+          "paper_title": "arXiv Query: search_query=&id_list=2504.02732&star",
+          "note": "Mixed results (warmup, decay, cyclic) - query ambiguity"
+        },
+        {
+          "rank": 3,
+          "score": 0.922,
+          "function_name": "_long_term_planning",
+          "paper_title": "arXiv Query: search_query=&id_list=2503.22708&star",
+          "note": "Mixed results (warmup, decay, cyclic) - query ambiguity"
+        }
+      ]
+    },
+    "failure": {
+      "query": "why use layer norm",
+      "top_score": 0.932,
+      "function_name": "_allocate_modules_to_layers",
+      "paper_title": "arXiv Query: search_query=&id_list=2301.04104&start=0&max_results=10",
+      "issue": "Retrieved code but couldn't explain motivation (limitation)"
+    }
+  },
+  "baseline_comparison": {
+    "ArXivCode": {
+      "time": "<0.24s",
+      "time_seconds": 0.24,
+      "accuracy": 75,
+      "notes": "Fast + semantic"
+    },
+    "Manual GitHub": {
+      "time": "15-20 min",
+      "time_seconds": 900,
+      "accuracy": 100,
+      "notes": "Slow"
+    },
+    "GPT-4 Zero-Shot": {
+      "time": "30s",
+      "time_seconds": 30,
+      "accuracy": 60,
+      "notes": "Hallucinates"
+    },
+    "GitHub Search": {
+      "time": "5-10 min",
+      "time_seconds": 450,
+      "accuracy": 50,
+      "notes": "Keyword only"
+    }
+  },
+  "error_analysis": {
+    "query_ambiguity": {
+      "count": 1,
+      "percentage": 4.3,
+      "examples": [
+        "learning rate schedule"
+      ]
+    },
+    "missing_papers": {
+      "count": 0,
+      "percentage": 0.0,
+      "examples": []
+    },
+    "code_complexity": {
+      "count": 0,
+      "percentage": 0.0,
+      "note": "Optimized/obfuscated code"
+    },
+    "conceptual_gap": {
+      "count": 2,
+      "percentage": 8.7,
+      "examples": [
+        "why use layer norm",
+        "why residual connections work"
+      ],
+      "note": "Why questions vs implementation"
+    }
+  }
+}
